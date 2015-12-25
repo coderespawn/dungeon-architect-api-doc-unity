@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DungeonArchitect.StairAdjacency\lQueueNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_stair_adjacency_queue_node.html",tooltip="Temporary data-structure used while assigning stairs on the dungeon. "];
+}

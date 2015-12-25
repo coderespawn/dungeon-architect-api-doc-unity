@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="EditorWindow",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DungeonArchitect.Editors.\lDungeonArchitectGraphEditor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_editors_1_1_dungeon_architect_graph_editor.html",tooltip="The main editor window for the Theme graph editor. This hosts the graph editor for managing the theme..."];
+}

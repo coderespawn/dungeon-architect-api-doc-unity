@@ -1,0 +1,20 @@
+digraph "F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Dungeon" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_86ed760c24122780955541de199b606c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Scripts" fontname="Helvetica", fontsize="10", URL="dir_86ed760c24122780955541de199b606c.html"]
+  subgraph clusterdir_98c64d3d8621e700508de074f3791b6e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_98c64d3d8621e700508de074f3791b6e.html"];
+    dir_98c64d3d8621e700508de074f3791b6e [shape=plaintext label="Dungeon"];
+    dir_bb9359e095bb28a5a18fcbb960f44e24 [shape=box label="Builders" color="black" fillcolor="white" style="filled" URL="dir_bb9359e095bb28a5a18fcbb960f44e24.html"];
+    dir_220bee990b8e35f57a72b4270274e703 [shape=box label="Configs" color="black" fillcolor="white" style="filled" URL="dir_220bee990b8e35f57a72b4270274e703.html"];
+    dir_8f3f2d44834337317c0c36e2715183c8 [shape=box label="Landscape" color="red" fillcolor="white" style="filled" URL="dir_8f3f2d44834337317c0c36e2715183c8.html"];
+    dir_b595d51c94456969230c100b97cd00db [shape=box label="MarkerEmitters" color="red" fillcolor="white" style="filled" URL="dir_b595d51c94456969230c100b97cd00db.html"];
+    dir_361d38a2f8974bcddc77d57aa1055982 [shape=box label="Models" color="black" fillcolor="white" style="filled" URL="dir_361d38a2f8974bcddc77d57aa1055982.html"];
+    dir_34658753f01144a52f930f439c67aaf6 [shape=box label="PaintModes" color="black" fillcolor="white" style="filled" URL="dir_34658753f01144a52f930f439c67aaf6.html"];
+    dir_9f492a3be262f74e8e5b12d38533ef52 [shape=box label="Rules" color="black" fillcolor="white" style="filled" URL="dir_9f492a3be262f74e8e5b12d38533ef52.html"];
+    dir_70617fba9c21bd191838d74602f8bb9c [shape=box label="SceneProviders" color="black" fillcolor="white" style="filled" URL="dir_70617fba9c21bd191838d74602f8bb9c.html"];
+  }
+  }
+}

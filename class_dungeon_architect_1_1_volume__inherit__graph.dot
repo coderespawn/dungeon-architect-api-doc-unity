@@ -1,0 +1,15 @@
+digraph "DungeonArchitect.Volume"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DungeonArchitect.Volume",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DungeonArchitect.Negation\lVolume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_negation_volume.html",tooltip="Negation volumes remove procedural geometries from the scene that lie with it&#39;s bounds ..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DungeonArchitect.Platform\lVolume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_platform_volume.html",tooltip="Platform volumes add a platform in the scene encompassing the volume "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="DungeonArchitect.ThemeOverride\lVolume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_theme_override_volume.html",tooltip="Dungeon layout that lies within this volumes bounds picks up the theme set in this volume ..."];
+}

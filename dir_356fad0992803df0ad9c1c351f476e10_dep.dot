@@ -1,0 +1,13 @@
+digraph "F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Triangulator" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_86ed760c24122780955541de199b606c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Scripts" fontname="Helvetica", fontsize="10", URL="dir_86ed760c24122780955541de199b606c.html"]
+  subgraph clusterdir_356fad0992803df0ad9c1c351f476e10 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_356fad0992803df0ad9c1c351f476e10.html"];
+    dir_356fad0992803df0ad9c1c351f476e10 [shape=plaintext label="Triangulator"];
+    dir_4c4b18e73f3cd5e98e1ac76641166fcf [shape=box label="Geometry" color="black" fillcolor="white" style="filled" URL="dir_4c4b18e73f3cd5e98e1ac76641166fcf.html"];
+  }
+  }
+}

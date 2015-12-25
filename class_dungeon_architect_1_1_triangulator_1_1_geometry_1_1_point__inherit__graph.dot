@@ -1,0 +1,8 @@
+digraph "DungeonArchitect.Triangulator.Geometry.Point"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="DungeonArchitect.Triangulator.\lGeometry.Point",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DungeonArchitect.Triangulator.\lGeometry.Point\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_triangulator_1_1_geometry_1_1_point.html",tooltip="A point with an attribute value of type &#39;T&#39; "];
+}

@@ -1,0 +1,9 @@
+digraph "F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Editor/ThemeEditor" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_31cdc67c7faa70c9216c9b78015e1bc4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Editor" fontname="Helvetica", fontsize="10", URL="dir_31cdc67c7faa70c9216c9b78015e1bc4.html"]
+  dir_5661775236b606637b7d0b76ae1b295a [shape=box, label="ThemeEditor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5661775236b606637b7d0b76ae1b295a.html"];
+  }
+}

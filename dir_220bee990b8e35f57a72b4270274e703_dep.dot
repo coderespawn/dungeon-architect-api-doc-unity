@@ -1,0 +1,9 @@
+digraph "F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Dungeon/Configs" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_98c64d3d8621e700508de074f3791b6e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Dungeon" fontname="Helvetica", fontsize="10", URL="dir_98c64d3d8621e700508de074f3791b6e.html"]
+  dir_220bee990b8e35f57a72b4270274e703 [shape=box, label="Configs", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_220bee990b8e35f57a72b4270274e703.html"];
+  }
+}

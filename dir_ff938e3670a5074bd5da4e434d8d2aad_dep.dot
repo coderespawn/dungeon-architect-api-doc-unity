@@ -1,0 +1,13 @@
+digraph "F:/gamedev/unity/misc/da_test" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_96c177d98dc6e9f1d46d4f92637952f0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="misc" fontname="Helvetica", fontsize="10", URL="dir_96c177d98dc6e9f1d46d4f92637952f0.html"]
+  subgraph clusterdir_ff938e3670a5074bd5da4e434d8d2aad {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ff938e3670a5074bd5da4e434d8d2aad.html"];
+    dir_ff938e3670a5074bd5da4e434d8d2aad [shape=plaintext label="da_test"];
+    dir_9a3ea336a157f3e338873b16fee27773 [shape=box label="Assets" color="red" fillcolor="white" style="filled" URL="dir_9a3ea336a157f3e338873b16fee27773.html"];
+  }
+  }
+}

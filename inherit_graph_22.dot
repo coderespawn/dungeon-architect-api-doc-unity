@@ -1,0 +1,17 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DungeonArchitect.Editors.\lGraphNodeRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_editors_1_1_graph_node_renderer.html",tooltip="Renders the graph node in the graph editor "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DungeonArchitect.Editors.\lMarkerEmitterNodeRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_editors_1_1_marker_emitter_node_renderer.html",tooltip="Renders a MarkerEmitterNode "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="DungeonArchitect.Editors.\lMarkerNodeRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_editors_1_1_marker_node_renderer.html",tooltip="Renders a marker node "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DungeonArchitect.Editors.\lVisualNodeRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_editors_1_1_visual_node_renderer.html",tooltip="Renders a visual node "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="DungeonArchitect.Editors.\lMeshNodeRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_editors_1_1_mesh_node_renderer.html",tooltip="Renders a mesh node "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="DungeonArchitect.Editors.\lSpriteNodeRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_editors_1_1_sprite_node_renderer.html",tooltip="Renders a sprite node "];
+}

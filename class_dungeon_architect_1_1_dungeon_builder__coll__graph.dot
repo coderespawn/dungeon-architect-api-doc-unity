@@ -1,0 +1,21 @@
+digraph "DungeonArchitect.DungeonBuilder"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DungeonArchitect.Dungeon\lBuilder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" model" ,fontname="Helvetica"];
+  Node3 [label="DungeonArchitect.Dungeon\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_dungeon_model.html",tooltip="Abstract dungeon model. Create your own implementation of the model depending on your builder&#39;s needs..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ToolData" ,fontname="Helvetica"];
+  Node4 [label="DungeonArchitect.Dungeon\lToolData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_dungeon_tool_data.html",tooltip="Tool Data represented by the grid based builder "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blackboard" ,fontname="Helvetica"];
+  Node5 [label="DungeonArchitect.Utils.Blackboard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_utils_1_1_blackboard.html",tooltip="A blackboard holds global data that can be shared across multiple scripts "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" config" ,fontname="Helvetica"];
+  Node6 [label="DungeonArchitect.Dungeon\lConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_dungeon_config.html",tooltip="Base dungeon configuration. Create your own implementation of this configuration based on your dungeo..."];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" random\nnrandom" ,fontname="Helvetica"];
+  Node7 [label="DungeonArchitect.Utils.PMRandom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_utils_1_1_p_m_random.html",tooltip="A random stream based on normal distribution. Also support uniform distsribution "];
+}
