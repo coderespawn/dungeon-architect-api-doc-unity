@@ -1,7 +1,7 @@
 var class_dungeon_architect_1_1_graphs_1_1_sprite_node =
 [
     [ "CopyFrom", "class_dungeon_architect_1_1_graphs_1_1_sprite_node.html#ab648fd42ef1e7b11b2c35d7eeda5d538", null ],
-    [ "Initialize", "class_dungeon_architect_1_1_graphs_1_1_sprite_node.html#aaf04991f0bd1cdcf9e3b8fc198c497f8", null ],
+    [ "Initialize", "class_dungeon_architect_1_1_graphs_1_1_sprite_node.html#a2f0fbf3793a315f28c563528ac10d86c", null ],
     [ "collisionType", "class_dungeon_architect_1_1_graphs_1_1_sprite_node.html#a47895454c441107b72e6db9a72d16dd9", null ],
     [ "color", "class_dungeon_architect_1_1_graphs_1_1_sprite_node.html#ad52efed254da3ad86c7b0f52cafa8b9f", null ],
     [ "materialOverride", "class_dungeon_architect_1_1_graphs_1_1_sprite_node.html#a91384ef2fe3b3c3d752981f9512059a0", null ],

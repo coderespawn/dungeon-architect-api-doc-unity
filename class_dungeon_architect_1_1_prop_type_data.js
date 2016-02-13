@@ -1,5 +1,6 @@
 var class_dungeon_architect_1_1_prop_type_data =
 [
+    [ "affectsNavigation", "class_dungeon_architect_1_1_prop_type_data.html#a6dc4da8e66cdc01a95725107264cdc9f", null ],
     [ "Affinity", "class_dungeon_architect_1_1_prop_type_data.html#aa404e6f38841dda4bd92d8890368c159", null ],
     [ "AttachToSocket", "class_dungeon_architect_1_1_prop_type_data.html#a55d8d36c8490c0ce2be4cddd49669f91", null ],
     [ "ChildSockets", "class_dungeon_architect_1_1_prop_type_data.html#a0fc641c52780e8bcaae916bc22747c95", null ],

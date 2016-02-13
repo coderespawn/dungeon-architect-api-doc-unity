@@ -1,9 +1,0 @@
-digraph "F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Volumes" {
-  compound=true
-  node [ fontsize="10", fontname="Helvetica"];
-  edge [ labelfontsize="10", labelfontname="Helvetica"];
-  subgraph clusterdir_86ed760c24122780955541de199b606c {
-    graph [ bgcolor="#ddddee", pencolor="black", label="Scripts" fontname="Helvetica", fontsize="10", URL="dir_86ed760c24122780955541de199b606c.html"]
-  dir_776d5a2c1d35cd0e872480629eb305f0 [shape=box, label="Volumes", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_776d5a2c1d35cd0e872480629eb305f0.html"];
-  }
-}

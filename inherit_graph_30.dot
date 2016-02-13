@@ -1,7 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node1 [label="DungeonArchitect.Editors.\lInspectorUtils",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_editors_1_1_inspector_utils.html",tooltip="Utility functions for drawing UI in the Inspector window "];
-}

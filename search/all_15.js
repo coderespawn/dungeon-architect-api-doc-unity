@@ -1,8 +1,26 @@
 var searchData=
 [
-  ['worldposition',['WorldPosition',['../class_dungeon_architect_1_1_graphs_1_1_graph_pin.html#a8b41b726d2ed1d9bee32cfb1eaed0d5a',1,'DungeonArchitect::Graphs::GraphPin']]],
-  ['worldtogrid',['WorldToGrid',['../class_dungeon_architect_1_1_utils_1_1_math_utils.html#aa48a628b32bdc64753829a90bfe314d1',1,'DungeonArchitect::Utils::MathUtils']]],
-  ['worldtoscreen',['WorldToScreen',['../class_dungeon_architect_1_1_graphs_1_1_graph_camera.html#a72f1eca0cb0a53f68a6c5bb2ff457a43',1,'DungeonArchitect::Graphs::GraphCamera']]],
-  ['worldtoterraincoord',['WorldToTerrainCoord',['../class_dungeon_architect_1_1_landscape_data_rasterizer.html#ae7047506579f5d95151b73b6e515aa97',1,'DungeonArchitect::LandscapeDataRasterizer']]],
-  ['worldtoterraintexturecoord',['WorldToTerrainTextureCoord',['../class_dungeon_architect_1_1_landscape_data_rasterizer.html#a025c7b10ec43bdd314b8f9220cbc262a',1,'DungeonArchitect::LandscapeDataRasterizer']]]
+  ['valid',['Valid',['../namespace_sharp_nav_1_1_crowds.html#af22ed148a5a3d61fef09f42591ae4d48a3ac705f2acd51a4613f9188c05c91d0d',1,'SharpNav::Crowds']]],
+  ['vector2',['Vector2',['../struct_sharp_nav_1_1_geometry_1_1_vector2.html',1,'SharpNav::Geometry']]],
+  ['vector2',['Vector2',['../struct_sharp_nav_1_1_geometry_1_1_vector2.html#adfdc52e62f8718502953a7f315e8b2bf',1,'SharpNav.Geometry.Vector2.Vector2(float value)'],['../struct_sharp_nav_1_1_geometry_1_1_vector2.html#a247e8540cdeb33219b06f2dd219ded69',1,'SharpNav.Geometry.Vector2.Vector2(float x, float y)'],['../struct_sharp_nav_1_1_geometry_1_1_vector2.html#a22dbc5ca2a0c274a3738d4d80a04074d',1,'SharpNav.Geometry.Vector2.Vector2(Vector2 v)'],['../struct_sharp_nav_1_1_geometry_1_1_vector2.html#ab233b166229db63d683d336a8870bc77',1,'SharpNav.Geometry.Vector2.Vector2(Vector3 v)']]],
+  ['vector2i',['Vector2i',['../struct_sharp_nav_1_1_geometry_1_1_vector2i.html',1,'SharpNav::Geometry']]],
+  ['vector2i',['Vector2i',['../struct_sharp_nav_1_1_geometry_1_1_vector2i.html#ade420bb9a58e8bd701fa927b903020aa',1,'SharpNav::Geometry::Vector2i']]],
+  ['vector3',['Vector3',['../struct_sharp_nav_1_1_geometry_1_1_vector3.html#a3fc5913fbcee31fd46a7bfea9182d913',1,'SharpNav.Geometry.Vector3.Vector3(float value)'],['../struct_sharp_nav_1_1_geometry_1_1_vector3.html#ad0957c6dd97470a5fa36d899a544cf41',1,'SharpNav.Geometry.Vector3.Vector3(float x, float y, float z)'],['../struct_sharp_nav_1_1_geometry_1_1_vector3.html#a688010f477cf6f31c3633dd82819fcef',1,'SharpNav.Geometry.Vector3.Vector3(Vector3 v)']]],
+  ['vector3',['Vector3',['../struct_sharp_nav_1_1_geometry_1_1_vector3.html',1,'SharpNav::Geometry']]],
+  ['velocity',['Velocity',['../namespace_sharp_nav_1_1_crowds.html#af22ed148a5a3d61fef09f42591ae4d48a88156d46910a2d733443c339a9231d12',1,'SharpNav::Crowds']]],
+  ['vertcount',['VertCount',['../class_sharp_nav_1_1_pathfinding_1_1_poly.html#aee74da844eaa917bcbb901ecc648c5ab',1,'SharpNav.Pathfinding.Poly.VertCount()'],['../class_sharp_nav_1_1_poly_mesh.html#a1e26796e830435555d9a9d6195ab4773',1,'SharpNav.PolyMesh.VertCount()'],['../class_sharp_nav_1_1_poly_mesh_detail.html#a84824ebbfc46c8f17d7e108cc008b5c6',1,'SharpNav.PolyMeshDetail.VertCount()']]],
+  ['vertexborder',['VertexBorder',['../namespace_sharp_nav.html#a745530c4cc9811752b851489c6b61e39aac3888101ecf87a69235399f7ce8fd5a',1,'SharpNav']]],
+  ['vertexcount',['VertexCount',['../class_sharp_nav_1_1_poly_mesh_1_1_polygon.html#ae996fbf052c4b602b0c0c59df69853ec',1,'SharpNav::PolyMesh::Polygon']]],
+  ['vertices',['Vertices',['../class_sharp_nav_1_1_contour.html#a3b6c37c35ac8d483ea4de490bda98df0',1,'SharpNav.Contour.Vertices()'],['../class_sharp_nav_1_1_poly_mesh_1_1_polygon.html#ae1a7386ac1a0490c3ec9fb5043d0ff57',1,'SharpNav.PolyMesh.Polygon.Vertices()']]],
+  ['verts',['Verts',['../class_sharp_nav_1_1_pathfinding_1_1_mesh_tile.html#a50be5f140c2bf3c6a091425529774371',1,'SharpNav.Pathfinding.MeshTile.Verts()'],['../class_sharp_nav_1_1_pathfinding_1_1_poly.html#a682750b6af928ff0d5cd426790e29c1f',1,'SharpNav.Pathfinding.Poly.Verts()'],['../class_sharp_nav_1_1_poly_mesh.html#a7dc2f4b03b7d4f98fa991369e4709c6d',1,'SharpNav.PolyMesh.Verts()'],['../class_sharp_nav_1_1_poly_mesh_detail.html#ae47b6bec3df35ef8be35bc2807bf7961',1,'SharpNav.PolyMeshDetail.Verts()']]],
+  ['vertsperpoly',['VertsPerPoly',['../class_sharp_nav_1_1_nav_mesh_generation_settings.html#af6c012f4a27e37a50c7564cf1c21b1ec',1,'SharpNav::NavMeshGenerationSettings']]],
+  ['visited',['Visited',['../class_sharp_nav_1_1_region.html#abceb0d24b74b9c4aff7a0771530ac42f',1,'SharpNav::Region']]],
+  ['visualnode',['VisualNode',['../class_dungeon_architect_1_1_graphs_1_1_visual_node.html',1,'DungeonArchitect::Graphs']]],
+  ['visualnodeeditor',['VisualNodeEditor',['../class_dungeon_architect_1_1_editors_1_1_visual_node_editor.html',1,'DungeonArchitect::Editors']]],
+  ['visualnoderenderer',['VisualNodeRenderer',['../class_dungeon_architect_1_1_editors_1_1_visual_node_renderer.html',1,'DungeonArchitect::Editors']]],
+  ['volume',['Volume',['../class_dungeon_architect_1_1_volume.html',1,'DungeonArchitect']]],
+  ['volumeeditor',['VolumeEditor',['../class_dungeon_architect_1_1_editors_1_1_volume_editor.html',1,'DungeonArchitect::Editors']]],
+  ['voxelagentheight',['VoxelAgentHeight',['../class_sharp_nav_1_1_nav_mesh_generation_settings.html#a27be66a0b7b28d9a2aba8f4c2fff03ae',1,'SharpNav::NavMeshGenerationSettings']]],
+  ['voxelagentradius',['VoxelAgentRadius',['../class_sharp_nav_1_1_nav_mesh_generation_settings.html#a396a1859c52e027f2b729ce5a7edf99a',1,'SharpNav::NavMeshGenerationSettings']]],
+  ['voxelmaxclimb',['VoxelMaxClimb',['../class_sharp_nav_1_1_nav_mesh_generation_settings.html#af8ea3a84cfd8f6f336e6e0cbb1d5a0d1',1,'SharpNav::NavMeshGenerationSettings']]]
 ];

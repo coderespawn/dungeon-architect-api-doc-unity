@@ -2,6 +2,7 @@ var namespace_dungeon_architect =
 [
     [ "Editors", "namespace_dungeon_architect_1_1_editors.html", "namespace_dungeon_architect_1_1_editors" ],
     [ "Graphs", "namespace_dungeon_architect_1_1_graphs.html", "namespace_dungeon_architect_1_1_graphs" ],
+    [ "Navigation", "namespace_dungeon_architect_1_1_navigation.html", "namespace_dungeon_architect_1_1_navigation" ],
     [ "Triangulator", "namespace_dungeon_architect_1_1_triangulator.html", "namespace_dungeon_architect_1_1_triangulator" ],
     [ "Utils", "namespace_dungeon_architect_1_1_utils.html", "namespace_dungeon_architect_1_1_utils" ],
     [ "BlurFilter", "class_dungeon_architect_1_1_blur_filter.html", "class_dungeon_architect_1_1_blur_filter" ],
@@ -29,6 +30,7 @@ var namespace_dungeon_architect =
     [ "GridDungeonBuilder", "class_dungeon_architect_1_1_grid_dungeon_builder.html", "class_dungeon_architect_1_1_grid_dungeon_builder" ],
     [ "GridDungeonConfig", "class_dungeon_architect_1_1_grid_dungeon_config.html", "class_dungeon_architect_1_1_grid_dungeon_config" ],
     [ "GridDungeonModel", "class_dungeon_architect_1_1_grid_dungeon_model.html", "class_dungeon_architect_1_1_grid_dungeon_model" ],
+    [ "GridDungeonModelUtils", "class_dungeon_architect_1_1_grid_dungeon_model_utils.html", null ],
     [ "IntVector", "struct_dungeon_architect_1_1_int_vector.html", "struct_dungeon_architect_1_1_int_vector" ],
     [ "IntVector2Key", "struct_dungeon_architect_1_1_int_vector2_key.html", "struct_dungeon_architect_1_1_int_vector2_key" ],
     [ "LandscapeDataRasterizer", "class_dungeon_architect_1_1_landscape_data_rasterizer.html", "class_dungeon_architect_1_1_landscape_data_rasterizer" ],

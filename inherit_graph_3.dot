@@ -1,7 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node1 [label="DungeonArchitect.CellHeightNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dungeon_architect_1_1_cell_height_node.html",tooltip="Temporary data-structure to hold the height data of the cell node A graph is build of the dungeon lay..."];
-}

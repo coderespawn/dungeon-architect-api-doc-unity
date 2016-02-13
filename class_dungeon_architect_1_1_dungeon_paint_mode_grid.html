@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="tab_icon_main.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Dungeon Architect (Unity)
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
    <div id="projectbrief">Dungeon Architect is a plugin for Unity that helps in streamlining the level creation process. It allows you to quickly create levels procedurally (or manually) by blocking out volumes and having the plugin build the environment automatically around it</div>
   </td>
@@ -161,6 +161,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa1237db863450c2fad180debc2ea57b1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_dungeon_paint_mode_grid.html#aa1237db863450c2fad180debc2ea57b1">overlayOpacity</a> = 0.1f</td></tr>
 <tr class="memdesc:aa1237db863450c2fad180debc2ea57b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The opacity of the overlay colored tiles  <a href="#aa1237db863450c2fad180debc2ea57b1">More...</a><br /></td></tr>
 <tr class="separator:aa1237db863450c2fad180debc2ea57b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ea84ae6d475e832f42af0c72668a599"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_dungeon_paint_mode_grid.html#a3ea84ae6d475e832f42af0c72668a599">mode2D</a> = false</td></tr>
+<tr class="memdesc:a3ea84ae6d475e832f42af0c72668a599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates if the painting is to be done in 2D mode (for 2D dungeons) This flag is used for the editor tooling. The model still stores it in 3D  <a href="#a3ea84ae6d475e832f42af0c72668a599">More...</a><br /></td></tr>
+<tr class="separator:a3ea84ae6d475e832f42af0c72668a599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a6319dacd0b7df6fa0a74d6e35bbbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_dungeon_paint_mode_grid.html#af1a6319dacd0b7df6fa0a74d6e35bbbf">brushSize</a> = 1</td></tr>
+<tr class="memdesc:af1a6319dacd0b7df6fa0a74d6e35bbbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The size of the brush. This would create a brush of size NxN  <a href="#af1a6319dacd0b7df6fa0a74d6e35bbbf">More...</a><br /></td></tr>
+<tr class="separator:af1a6319dacd0b7df6fa0a74d6e35bbbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -178,6 +184,20 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Editor tooling for the grid based dungeon builder. Lets you paint with a grid based brush </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="af1a6319dacd0b7df6fa0a74d6e35bbbf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DungeonArchitect.DungeonPaintModeGrid.brushSize = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The size of the brush. This would create a brush of size NxN </p>
+
+</div>
+</div>
 <a class="anchor" id="a2ee1b1a9160404527c330a5b5c4138e0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -189,6 +209,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The height of the cursor in grid cooridnates. Can also be changed with the mouse wheel in the editor when activated </p>
+
+</div>
+</div>
+<a class="anchor" id="a3ea84ae6d475e832f42af0c72668a599"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DungeonArchitect.DungeonPaintModeGrid.mode2D = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicates if the painting is to be done in 2D mode (for 2D dungeons) This flag is used for the editor tooling. The model still stores it in 3D </p>
 
 </div>
 </div>
@@ -207,7 +241,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Dungeon/PaintModes/DungeonPaintModeGrid.cs</li>
+<li>github/dungeon-architect-unity/Scripts/Dungeon/PaintModes/DungeonPaintModeGrid.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

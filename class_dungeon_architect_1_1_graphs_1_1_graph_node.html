@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="tab_icon_main.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Dungeon Architect (Unity)
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
    <div id="projectbrief">Dungeon Architect is a plugin for Unity that helps in streamlining the level creation process. It allows you to quickly create levels procedurally (or manually) by blocking out volumes and having the plugin build the environment automatically around it</div>
   </td>
@@ -140,24 +140,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af1a13dea344120a82d0ce16cee16432e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1a13dea344120a82d0ce16cee16432e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
 <tr class="separator:af1a13dea344120a82d0ce16cee16432e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29a3da25806bdac96cfffeda1c2466d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29a3da25806bdac96cfffeda1c2466d5"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (int id, <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html">Graph</a> graph)</td></tr>
-<tr class="separator:a29a3da25806bdac96cfffeda1c2466d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28260465c52cedd04fe168c635490c61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28260465c52cedd04fe168c635490c61"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (string id, <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html">Graph</a> graph)</td></tr>
+<tr class="separator:a28260465c52cedd04fe168c635490c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a5c1670dcd7d8e91f5bbc8fad770742"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a3a5c1670dcd7d8e91f5bbc8fad770742">CopyFrom</a> (<a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a> node)</td></tr>
 <tr class="memdesc:a3a5c1670dcd7d8e91f5bbc8fad770742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the node is copied. The implementations should implement copy here (e.g. deep / shallow copy depending on implementation)  <a href="#a3a5c1670dcd7d8e91f5bbc8fad770742">More...</a><br /></td></tr>
 <tr class="separator:a3a5c1670dcd7d8e91f5bbc8fad770742"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e447c1008293f0b0dbd107d4f012611"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a8e447c1008293f0b0dbd107d4f012611">BreakInputLinks</a> ()</td></tr>
-<tr class="memdesc:a8e447c1008293f0b0dbd107d4f012611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Breaks all links connected to the input pins  <a href="#a8e447c1008293f0b0dbd107d4f012611">More...</a><br /></td></tr>
-<tr class="separator:a8e447c1008293f0b0dbd107d4f012611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1188a30599aa1f285cb39a601c56fe8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a1188a30599aa1f285cb39a601c56fe8c">BreakOutputLinks</a> ()</td></tr>
-<tr class="memdesc:a1188a30599aa1f285cb39a601c56fe8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Breaks all links connected to thte output pins  <a href="#a1188a30599aa1f285cb39a601c56fe8c">More...</a><br /></td></tr>
-<tr class="separator:a1188a30599aa1f285cb39a601c56fe8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f9a065929d92a0b50a73eaca6f7833"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#af2f9a065929d92a0b50a73eaca6f7833">Destroy</a> ()</td></tr>
-<tr class="memdesc:af2f9a065929d92a0b50a73eaca6f7833"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the node  <a href="#af2f9a065929d92a0b50a73eaca6f7833">More...</a><br /></td></tr>
-<tr class="separator:af2f9a065929d92a0b50a73eaca6f7833"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c2c4f7b134d2040d717cc802547f480"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a8c2c4f7b134d2040d717cc802547f480">HandleInput</a> (Event e, <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_camera.html">GraphCamera</a> camera)</td></tr>
-<tr class="memdesc:a8c2c4f7b134d2040d717cc802547f480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles user input (keyboard and mouse)  <a href="#a8c2c4f7b134d2040d717cc802547f480">More...</a><br /></td></tr>
-<tr class="separator:a8c2c4f7b134d2040d717cc802547f480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f30bb06f1eb6ca7bbdcc584cc5d7955"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a7f30bb06f1eb6ca7bbdcc584cc5d7955">GetParentNodes</a> ()</td></tr>
 <tr class="memdesc:a7f30bb06f1eb6ca7bbdcc584cc5d7955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of parent graph nodes  <a href="#a7f30bb06f1eb6ca7bbdcc584cc5d7955">More...</a><br /></td></tr>
 <tr class="separator:a7f30bb06f1eb6ca7bbdcc584cc5d7955"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,9 +167,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateName</b> (strin
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ad8ae48cdc1adcdf52da1822b33a97ee6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8ae48cdc1adcdf52da1822b33a97ee6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>id</b></td></tr>
-<tr class="separator:ad8ae48cdc1adcdf52da1822b33a97ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb731d8d6e42e21615d5d8c28f8d5735"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb731d8d6e42e21615d5d8c28f8d5735"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>id</b></td></tr>
+<tr class="separator:aeb731d8d6e42e21615d5d8c28f8d5735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14f6b6ed47ae9292c459875b4f0ddfd2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14f6b6ed47ae9292c459875b4f0ddfd2"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>caption</b></td></tr>
 <tr class="separator:a14f6b6ed47ae9292c459875b4f0ddfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,9 +194,9 @@ List&lt; <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.ht
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a3597cb7be88bb9acf7bd8ac0cdca177d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a3597cb7be88bb9acf7bd8ac0cdca177d">Id</a><code> [get]</code></td></tr>
-<tr class="memdesc:a3597cb7be88bb9acf7bd8ac0cdca177d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the graph node  <a href="#a3597cb7be88bb9acf7bd8ac0cdca177d">More...</a><br /></td></tr>
-<tr class="separator:a3597cb7be88bb9acf7bd8ac0cdca177d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdea4fb1bb49a1057f539bf2e09211e0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#abdea4fb1bb49a1057f539bf2e09211e0">Id</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abdea4fb1bb49a1057f539bf2e09211e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the graph node  <a href="#abdea4fb1bb49a1057f539bf2e09211e0">More...</a><br /></td></tr>
+<tr class="separator:abdea4fb1bb49a1057f539bf2e09211e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78345a0b78c1092acad17f7c5f561f91"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a78345a0b78c1092acad17f7c5f561f91">Caption</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a78345a0b78c1092acad17f7c5f561f91"><td class="mdescLeft">&#160;</td><td class="mdescRight">The caption label of the node. It is up to the implementation to draw this label, if needed  <a href="#a78345a0b78c1092acad17f7c5f561f91">More...</a><br /></td></tr>
 <tr class="separator:a78345a0b78c1092acad17f7c5f561f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,44 +230,13 @@ Properties</h2></td></tr>
 <tr class="memitem:aef56e88bc120f1150dad1f5bf7279f7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html">Graph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#aef56e88bc120f1150dad1f5bf7279f7d">Graph</a><code> [get]</code></td></tr>
 <tr class="memdesc:aef56e88bc120f1150dad1f5bf7279f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The graph that owns this node  <a href="#aef56e88bc120f1150dad1f5bf7279f7d">More...</a><br /></td></tr>
 <tr class="separator:aef56e88bc120f1150dad1f5bf7279f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2294402b38822f5a66bee3b72e9664c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2294402b38822f5a66bee3b72e9664c5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Dragging</b><code> [get, set]</code></td></tr>
+<tr class="separator:a2294402b38822f5a66bee3b72e9664c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a graph node in the theme graph. This is the base class for all graph nodes </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a8e447c1008293f0b0dbd107d4f012611"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DungeonArchitect.Graphs.GraphNode.BreakInputLinks </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Breaks all links connected to the input pins </p>
-
-</div>
-</div>
-<a class="anchor" id="a1188a30599aa1f285cb39a601c56fe8c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DungeonArchitect.Graphs.GraphNode.BreakOutputLinks </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Breaks all links connected to thte output pins </p>
-
-</div>
-</div>
 <a class="anchor" id="a3a5c1670dcd7d8e91f5bbc8fad770742"></a>
 <div class="memitem">
 <div class="memproto">
@@ -371,31 +328,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af2f9a065929d92a0b50a73eaca6f7833"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void DungeonArchitect.Graphs.GraphNode.Destroy </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destroys the node </p>
-
-</div>
-</div>
 <a class="anchor" id="afbaac0a0e5fc24ea87bbb0f70da236ea"></a>
 <div class="memitem">
 <div class="memproto">
@@ -453,50 +385,6 @@ Properties</h2></td></tr>
 
 <p>Gets the list of parent graph nodes </p>
 <dl class="section return"><dt>Returns</dt><dd>List of parent graph nodes</dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a8c2c4f7b134d2040d717cc802547f480"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool DungeonArchitect.Graphs.GraphNode.HandleInput </td>
-          <td>(</td>
-          <td class="paramtype">Event&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_camera.html">GraphCamera</a>&#160;</td>
-          <td class="paramname"><em>camera</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Handles user input (keyboard and mouse) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">e</td><td>Input event</td></tr>
-    <tr><td class="paramname">camera</td><td><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html" title="Theme Graph data structure holds all the theme nodes and their connections ">Graph</a> camera to convert to / from screen to world coordinates</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>true if the input was processed, false otherwise.</dd></dl>
 
 </div>
 </div>
@@ -567,7 +455,7 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3597cb7be88bb9acf7bd8ac0cdca177d"></a>
+<a class="anchor" id="abdea4fb1bb49a1057f539bf2e09211e0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -575,12 +463,12 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int DungeonArchitect.Graphs.GraphNode.Id</td>
+          <td class="memname">string DungeonArchitect.Graphs.GraphNode.Id</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -766,7 +654,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Graph/GraphNode.cs</li>
+<li>github/dungeon-architect-unity/Scripts/Graph/GraphNode.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

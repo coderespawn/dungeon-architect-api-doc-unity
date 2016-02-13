@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="tab_icon_main.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Dungeon Architect (Unity)
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
    <div id="projectbrief">Dungeon Architect is a plugin for Unity that helps in streamlining the level creation process. It allows you to quickly create levels procedurally (or manually) by blocking out volumes and having the plugin build the environment automatically around it</div>
   </td>
@@ -128,9 +128,9 @@ Inheritance diagram for DungeonArchitect.Graphs.MarkerEmitterNode:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a76f1e7bcdf95fd22614dc94d1afbc4e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76f1e7bcdf95fd22614dc94d1afbc4e8"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (int id, <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html">Graph</a> graph)</td></tr>
-<tr class="separator:a76f1e7bcdf95fd22614dc94d1afbc4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca07ac8098c1a50dc37fee202c58f24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afca07ac8098c1a50dc37fee202c58f24"></a>
+override void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (string id, <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html">Graph</a> graph)</td></tr>
+<tr class="separator:afca07ac8098c1a50dc37fee202c58f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_dungeon_architect_1_1_graphs_1_1_placeable_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_dungeon_architect_1_1_graphs_1_1_placeable_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_placeable_node.html">DungeonArchitect.Graphs.PlaceableNode</a></td></tr>
 <tr class="memitem:ad09290206ade2fee7ef6e6eae8aaac82 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_placeable_node"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_placeable_node.html#ad09290206ade2fee7ef6e6eae8aaac82">CopyFrom</a> (<a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a> node)</td></tr>
 <tr class="memdesc:ad09290206ade2fee7ef6e6eae8aaac82 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_placeable_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the node is copied. The implementations should implement copy here (e.g. deep / shallow copy depending on implementation)  <a href="#ad09290206ade2fee7ef6e6eae8aaac82">More...</a><br /></td></tr>
@@ -139,18 +139,6 @@ override void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</
 <tr class="memitem:af1a13dea344120a82d0ce16cee16432e inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1a13dea344120a82d0ce16cee16432e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
 <tr class="separator:af1a13dea344120a82d0ce16cee16432e inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e447c1008293f0b0dbd107d4f012611 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a8e447c1008293f0b0dbd107d4f012611">BreakInputLinks</a> ()</td></tr>
-<tr class="memdesc:a8e447c1008293f0b0dbd107d4f012611 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Breaks all links connected to the input pins  <a href="#a8e447c1008293f0b0dbd107d4f012611">More...</a><br /></td></tr>
-<tr class="separator:a8e447c1008293f0b0dbd107d4f012611 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1188a30599aa1f285cb39a601c56fe8c inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a1188a30599aa1f285cb39a601c56fe8c">BreakOutputLinks</a> ()</td></tr>
-<tr class="memdesc:a1188a30599aa1f285cb39a601c56fe8c inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Breaks all links connected to thte output pins  <a href="#a1188a30599aa1f285cb39a601c56fe8c">More...</a><br /></td></tr>
-<tr class="separator:a1188a30599aa1f285cb39a601c56fe8c inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f9a065929d92a0b50a73eaca6f7833 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#af2f9a065929d92a0b50a73eaca6f7833">Destroy</a> ()</td></tr>
-<tr class="memdesc:af2f9a065929d92a0b50a73eaca6f7833 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the node  <a href="#af2f9a065929d92a0b50a73eaca6f7833">More...</a><br /></td></tr>
-<tr class="separator:af2f9a065929d92a0b50a73eaca6f7833 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c2c4f7b134d2040d717cc802547f480 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a8c2c4f7b134d2040d717cc802547f480">HandleInput</a> (Event e, <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_camera.html">GraphCamera</a> camera)</td></tr>
-<tr class="memdesc:a8c2c4f7b134d2040d717cc802547f480 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles user input (keyboard and mouse)  <a href="#a8c2c4f7b134d2040d717cc802547f480">More...</a><br /></td></tr>
-<tr class="separator:a8c2c4f7b134d2040d717cc802547f480 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f30bb06f1eb6ca7bbdcc584cc5d7955 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a7f30bb06f1eb6ca7bbdcc584cc5d7955">GetParentNodes</a> ()</td></tr>
 <tr class="memdesc:a7f30bb06f1eb6ca7bbdcc584cc5d7955 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of parent graph nodes  <a href="#a7f30bb06f1eb6ca7bbdcc584cc5d7955">More...</a><br /></td></tr>
 <tr class="separator:a7f30bb06f1eb6ca7bbdcc584cc5d7955 inherit pub_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,9 +155,9 @@ Properties</h2></td></tr>
 <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_marker_node.html">MarkerNode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Marker</b><code> [get, set]</code></td></tr>
 <tr class="separator:a6a8be33897cae1bc8d3b36355d65e03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td colspan="2" onclick="javascript:toggleInherit('properties_class_dungeon_architect_1_1_graphs_1_1_graph_node')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">DungeonArchitect.Graphs.GraphNode</a></td></tr>
-<tr class="memitem:a3597cb7be88bb9acf7bd8ac0cdca177d inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a3597cb7be88bb9acf7bd8ac0cdca177d">Id</a><code> [get]</code></td></tr>
-<tr class="memdesc:a3597cb7be88bb9acf7bd8ac0cdca177d inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the graph node  <a href="#a3597cb7be88bb9acf7bd8ac0cdca177d">More...</a><br /></td></tr>
-<tr class="separator:a3597cb7be88bb9acf7bd8ac0cdca177d inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdea4fb1bb49a1057f539bf2e09211e0 inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#abdea4fb1bb49a1057f539bf2e09211e0">Id</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abdea4fb1bb49a1057f539bf2e09211e0 inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the graph node  <a href="#abdea4fb1bb49a1057f539bf2e09211e0">More...</a><br /></td></tr>
+<tr class="separator:abdea4fb1bb49a1057f539bf2e09211e0 inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78345a0b78c1092acad17f7c5f561f91 inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#a78345a0b78c1092acad17f7c5f561f91">Caption</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a78345a0b78c1092acad17f7c5f561f91 inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">The caption label of the node. It is up to the implementation to draw this label, if needed  <a href="#a78345a0b78c1092acad17f7c5f561f91">More...</a><br /></td></tr>
 <tr class="separator:a78345a0b78c1092acad17f7c5f561f91 inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +191,9 @@ Properties</h2></td></tr>
 <tr class="memitem:aef56e88bc120f1150dad1f5bf7279f7d inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html">Graph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html#aef56e88bc120f1150dad1f5bf7279f7d">Graph</a><code> [get]</code></td></tr>
 <tr class="memdesc:aef56e88bc120f1150dad1f5bf7279f7d inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">The graph that owns this node  <a href="#aef56e88bc120f1150dad1f5bf7279f7d">More...</a><br /></td></tr>
 <tr class="separator:aef56e88bc120f1150dad1f5bf7279f7d inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2294402b38822f5a66bee3b72e9664c5 inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2294402b38822f5a66bee3b72e9664c5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Dragging</b><code> [get, set]</code></td></tr>
+<tr class="separator:a2294402b38822f5a66bee3b72e9664c5 inherit properties_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -224,9 +215,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateName</b> (strin
 <tr class="memdesc:ab3b1c1723337149dc2287001182fcccc inherit pro_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a pin with the specified configuration  <a href="#ab3b1c1723337149dc2287001182fcccc">More...</a><br /></td></tr>
 <tr class="separator:ab3b1c1723337149dc2287001182fcccc inherit pro_methods_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_dungeon_architect_1_1_graphs_1_1_graph_node')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">DungeonArchitect.Graphs.GraphNode</a></td></tr>
-<tr class="memitem:ad8ae48cdc1adcdf52da1822b33a97ee6 inherit pro_attribs_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8ae48cdc1adcdf52da1822b33a97ee6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>id</b></td></tr>
-<tr class="separator:ad8ae48cdc1adcdf52da1822b33a97ee6 inherit pro_attribs_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb731d8d6e42e21615d5d8c28f8d5735 inherit pro_attribs_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb731d8d6e42e21615d5d8c28f8d5735"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>id</b></td></tr>
+<tr class="separator:aeb731d8d6e42e21615d5d8c28f8d5735 inherit pro_attribs_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14f6b6ed47ae9292c459875b4f0ddfd2 inherit pro_attribs_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14f6b6ed47ae9292c459875b4f0ddfd2"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>caption</b></td></tr>
 <tr class="separator:a14f6b6ed47ae9292c459875b4f0ddfd2 inherit pro_attribs_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,7 +241,7 @@ List&lt; <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.ht
 <tr class="separator:aaf36b2f3d4bdd6de7c97e88afb0f6a18 inherit pro_attribs_class_dungeon_architect_1_1_graphs_1_1_graph_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Graph/ThemeEditor/MarkerEmitterNode.cs</li>
+<li>github/dungeon-architect-unity/Scripts/Graph/ThemeEditor/MarkerEmitterNode.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -2,7 +2,7 @@ var class_dungeon_architect_1_1_dungeon_scene_provider =
 [
     [ "AddGameObject", "class_dungeon_architect_1_1_dungeon_scene_provider.html#a383e3e820eb019a38a8780c6de7cecff", null ],
     [ "AddSprite", "class_dungeon_architect_1_1_dungeon_scene_provider.html#a54f362551221e7cae818fd0c97040831", null ],
-    [ "BuildGameObject", "class_dungeon_architect_1_1_dungeon_scene_provider.html#a1521257e1400891ad0ae11243bc29bbb", null ],
+    [ "BuildGameObject", "class_dungeon_architect_1_1_dungeon_scene_provider.html#a12c8ac7b7398a267402f2b8db15550f3", null ],
     [ "BuildSpriteObject", "class_dungeon_architect_1_1_dungeon_scene_provider.html#a7a2c015147f9d2c9021a5275d52c5499", null ],
     [ "FlipSpritePosition", "class_dungeon_architect_1_1_dungeon_scene_provider.html#a92709eac541fe6c05588f181b1d60958", null ],
     [ "FlipSpritePosition", "class_dungeon_architect_1_1_dungeon_scene_provider.html#a225ddc9ec6a5dd510380b8059df489c0", null ],

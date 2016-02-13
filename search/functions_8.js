@@ -1,7 +1,28 @@
 var searchData=
 [
   ['identity',['Identity',['../class_dungeon_architect_1_1_utils_1_1_matrix.html#a28cae752c857922b176a3d0c481899d7',1,'DungeonArchitect::Utils::Matrix']]],
+  ['incone',['InCone',['../class_sharp_nav_1_1_poly_mesh.html#a13e4f97ecbb48aaf76961f79a891c276',1,'SharpNav::PolyMesh']]],
   ['init',['Init',['../class_dungeon_architect_1_1_editors_1_1_graph_editor.html#a2a933a43d29743b74c8c314bc1d3c7a9',1,'DungeonArchitect::Editors::GraphEditor']]],
   ['initialize',['Initialize',['../class_dungeon_architect_1_1_utils_1_1_p_m_random.html#ac6fa21ff46d3cbf550d026a93d9faebd',1,'DungeonArchitect::Utils::PMRandom']]],
-  ['intersects',['Intersects',['../class_dungeon_architect_1_1_utils_1_1_math_utils.html#a31e1cc5a3c670db3a7c48a48de0ac833',1,'DungeonArchitect.Utils.MathUtils.Intersects(Rect outer, Rect inner)'],['../class_dungeon_architect_1_1_utils_1_1_math_utils.html#a30d96cec72261c91ada5299875c5aab2',1,'DungeonArchitect.Utils.MathUtils.Intersects(Rect outer, GraphLink link)']]]
+  ['initslicedfindpath',['InitSlicedFindPath',['../class_sharp_nav_1_1_nav_mesh_query.html#a348b788d71c60da3864e2ba9851c82d1',1,'SharpNav::NavMeshQuery']]],
+  ['inittilenavmesh',['InitTileNavMesh',['../class_sharp_nav_1_1_tiled_nav_mesh.html#ace5875268a22b6fc443499024bdcaf62',1,'SharpNav::TiledNavMesh']]],
+  ['insertinterval',['InsertInterval',['../class_sharp_nav_1_1_nav_mesh_query.html#ab5c4c3573b1c9db9120f84554a46bb7b',1,'SharpNav::NavMeshQuery']]],
+  ['integrate',['Integrate',['../class_sharp_nav_1_1_crowds_1_1_agent.html#aa9de0569df9dee257054f1bab0c5a1fd',1,'SharpNav::Crowds::Agent']]],
+  ['intersect',['Intersect',['../struct_sharp_nav_1_1_poly_vertex.html#aef67e4020bba6024e9c462d1d28c3315',1,'SharpNav::PolyVertex']]],
+  ['intersectprop',['IntersectProp',['../struct_sharp_nav_1_1_poly_vertex.html#aaed3c0e0eb57d78c65ccc91f0364996c',1,'SharpNav::PolyVertex']]],
+  ['intersectraysegment',['IntersectRaySegment',['../class_sharp_nav_1_1_crowds_1_1_obstacle_avoidance_query.html#addc6161591a3e47ebe4ce81f7cc2efcc',1,'SharpNav::Crowds::ObstacleAvoidanceQuery']]],
+  ['intersects',['Intersects',['../class_dungeon_architect_1_1_utils_1_1_math_utils.html#a31e1cc5a3c670db3a7c48a48de0ac833',1,'DungeonArchitect.Utils.MathUtils.Intersects(Rect outer, Rect inner)'],['../class_dungeon_architect_1_1_utils_1_1_math_utils.html#a30d96cec72261c91ada5299875c5aab2',1,'DungeonArchitect.Utils.MathUtils.Intersects(Rect outer, GraphLink link)']]],
+  ['isbetween',['IsBetween',['../struct_sharp_nav_1_1_poly_vertex.html#aeb76f8f8f14bd84f028ff7a4fd4c35c9',1,'SharpNav::PolyVertex']]],
+  ['isboundaryedge',['IsBoundaryEdge',['../class_sharp_nav_1_1_poly_mesh.html#acfdee7723625457ee429ef42591602a5',1,'SharpNav::PolyMesh']]],
+  ['iscollinear',['IsCollinear',['../struct_sharp_nav_1_1_poly_vertex.html#a6d6fde65a14e3b2f27a4b154be8b33ba',1,'SharpNav::PolyVertex']]],
+  ['isconnected',['IsConnected',['../struct_sharp_nav_1_1_compact_span.html#a97145f963697cf636204315c54a971f5',1,'SharpNav::CompactSpan']]],
+  ['isconnectedtoborder',['IsConnectedToBorder',['../class_sharp_nav_1_1_region.html#a5cd42c5309bb8805a1b979db7f3f9861',1,'SharpNav::Region']]],
+  ['isexternallink',['IsExternalLink',['../class_sharp_nav_1_1_tiled_nav_mesh.html#a03d40c343af01ed6049675349680991c',1,'SharpNav::TiledNavMesh']]],
+  ['isinterioredge',['IsInteriorEdge',['../class_sharp_nav_1_1_poly_mesh.html#a36837586cad66258d96d4b4e51eb098c',1,'SharpNav::PolyMesh']]],
+  ['isleft',['IsLeft',['../struct_sharp_nav_1_1_contour_vertex.html#a641a58da008865348a508ac950b5e8ca',1,'SharpNav.ContourVertex.IsLeft()'],['../struct_sharp_nav_1_1_poly_vertex.html#a2bb900d55faf38b8060c25c711c8f92b',1,'SharpNav.PolyVertex.IsLeft()']]],
+  ['islefton',['IsLeftOn',['../struct_sharp_nav_1_1_poly_vertex.html#a17f1e980038588de0337432e48d22613',1,'SharpNav::PolyVertex']]],
+  ['islinkallocated',['IsLinkAllocated',['../class_sharp_nav_1_1_tiled_nav_mesh.html#a0de5df68fe36197c0aa5a2e3b4ce7a84',1,'SharpNav::TiledNavMesh']]],
+  ['isset',['IsSet',['../class_sharp_nav_1_1_height_patch.html#a53540205cb8e59d31bde665ba5b09c38',1,'SharpNav::HeightPatch']]],
+  ['isvalid',['IsValid',['../class_sharp_nav_1_1_crowds_1_1_local_boundary.html#a681f49184b67cbe595598e02d62623bc',1,'SharpNav.Crowds.LocalBoundary.IsValid()'],['../class_sharp_nav_1_1_crowds_1_1_path_corridor.html#a4df2a6d8046931a74e1e5e7e03a8cd3b',1,'SharpNav.Crowds.PathCorridor.IsValid()'],['../struct_sharp_nav_1_1_geometry_1_1_b_box3.html#a67a71e6a44fa00bffb6857627e6b20e4',1,'SharpNav.Geometry.BBox3.IsValid()']]],
+  ['isvalidpolyref',['IsValidPolyRef',['../class_sharp_nav_1_1_tiled_nav_mesh.html#ae58f65b57627656aaf6eb6d72fff7454',1,'SharpNav::TiledNavMesh']]]
 ];

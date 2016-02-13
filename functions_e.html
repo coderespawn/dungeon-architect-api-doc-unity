@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="tab_icon_main.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Dungeon Architect (Unity)
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
    <div id="projectbrief">Dungeon Architect is a plugin for Unity that helps in streamlining the level creation process. It allows you to quickly create levels procedurally (or manually) by blocking out volumes and having the plugin build the environment automatically around it</div>
   </td>
@@ -103,10 +103,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_n.html#index_n"><span>n</span></a></li>
       <li><a href="functions_o.html#index_o"><span>o</span></a></li>
       <li><a href="functions_p.html#index_p"><span>p</span></a></li>
+      <li><a href="functions_q.html#index_q"><span>q</span></a></li>
       <li><a href="functions_r.html#index_r"><span>r</span></a></li>
       <li><a href="functions_s.html#index_s"><span>s</span></a></li>
       <li><a href="functions_t.html#index_t"><span>t</span></a></li>
       <li><a href="functions_u.html#index_u"><span>u</span></a></li>
+      <li><a href="functions_v.html#index_v"><span>v</span></a></li>
       <li><a href="functions_w.html#index_w"><span>w</span></a></li>
       <li><a href="functions_x.html#index_x"><span>x</span></a></li>
       <li><a href="functions_y.html#index_y"><span>y</span></a></li>
@@ -148,6 +150,7 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 <h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
 <li>Edge()
 : <a class="el" href="class_dungeon_architect_1_1_triangulator_1_1_geometry_1_1_edge.html#a29ed9a562b1004481dbd7cb9c6b358db">DungeonArchitect.Triangulator.Geometry.Edge</a>
+, <a class="el" href="class_sharp_nav_1_1_pathfinding_1_1_link.html#a150cf51a36e782ac984eceaac12f8de1">SharpNav.Pathfinding.Link</a>
 </li>
 <li>EmitCustomMarkers()
 : <a class="el" href="class_dungeon_architect_1_1_dungeon_builder.html#a7bae1078ebcc9ca500cfa7825c9b3f0d">DungeonArchitect.DungeonBuilder</a>
@@ -161,11 +164,40 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 , <a class="el" href="class_dungeon_architect_1_1_marker_emitter_find_lowest_point.html#a2b360472ed5f5e4a5cdb8efd06f94657">DungeonArchitect.MarkerEmitterFindLowestPoint</a>
 , <a class="el" href="class_dungeon_architect_1_1_marker_emitter_free_space_decorator.html#aae63e00e6e6283bf5c0f1ecd7b74e30f">DungeonArchitect.MarkerEmitterFreeSpaceDecorator</a>
 </li>
+<li>Empty()
+: <a class="el" href="class_sharp_nav_1_1_collections_1_1_generic_1_1_priority_queue.html#ae346727bc6f799b1576a413a523a0efe">SharpNav.Collections.Generic.PriorityQueue&lt; T &gt;</a>
+</li>
+<li>EncodePolyId()
+: <a class="el" href="class_sharp_nav_1_1_tiled_nav_mesh.html#af88cf92b76a81e0f87f8ad128cce56b9">SharpNav.TiledNavMesh</a>
+</li>
+<li>Enqueue()
+: <a class="el" href="class_sharp_nav_1_1_collections_1_1_generic_1_1_buffered_queue.html#a51f3e7909db422caa7f7d24c38b1bfa0">SharpNav.Collections.Generic.BufferedQueue&lt; T &gt;</a>
+</li>
+<li>Equal2D()
+: <a class="el" href="struct_sharp_nav_1_1_poly_vertex.html#aefc1c10decfa26716da5eef164e1e5fc">SharpNav.PolyVertex</a>
+</li>
 <li>Equals()
 : <a class="el" href="class_dungeon_architect_1_1_triangulator_1_1_geometry_1_1_edge.html#a4b031db3e1bde38c9102d8fd2cb7c340">DungeonArchitect.Triangulator.Geometry.Edge</a>
+, <a class="el" href="struct_sharp_nav_1_1_area.html#a181753a715e1a558a56e8a01957bd90b">SharpNav.Area</a>
+, <a class="el" href="struct_sharp_nav_1_1_compact_span_reference.html#a5cb8d8d7596322c5db7aa36410efb85f">SharpNav.CompactSpanReference</a>
+, <a class="el" href="struct_sharp_nav_1_1_geometry_1_1_b_box2i.html#ac5a2391a48c1e986cebbd895a297424a">SharpNav.Geometry.BBox2i</a>
+, <a class="el" href="struct_sharp_nav_1_1_geometry_1_1_b_box3.html#a69eb57ded0d84d4939e901dbf2992662">SharpNav.Geometry.BBox3</a>
+, <a class="el" href="struct_sharp_nav_1_1_geometry_1_1_triangle3.html#ab62f87d9c0743715f4a6ec7c07215b21">SharpNav.Geometry.Triangle3</a>
+, <a class="el" href="struct_sharp_nav_1_1_geometry_1_1_vector2.html#af658585c0924cd3cef2a10c64a3c5db4">SharpNav.Geometry.Vector2</a>
+, <a class="el" href="struct_sharp_nav_1_1_geometry_1_1_vector2i.html#a58f5e53f58080ae844e0bbc569e34a2a">SharpNav.Geometry.Vector2i</a>
+, <a class="el" href="struct_sharp_nav_1_1_geometry_1_1_vector3.html#a3e6f3e219d1265bdb52423c329fb7c72">SharpNav.Geometry.Vector3</a>
+, <a class="el" href="struct_sharp_nav_1_1_poly_bounds.html#a36e8447ea2427689f5d914c38b11a0e2">SharpNav.PolyBounds</a>
+, <a class="el" href="struct_sharp_nav_1_1_poly_vertex.html#ab047aa20a94d472ec90ba24ab6277aa8">SharpNav.PolyVertex</a>
+, <a class="el" href="struct_sharp_nav_1_1_region_id.html#af86b635e08b2fc5762b40879f98099d5">SharpNav.RegionId</a>
 </li>
 <li>Equals2D()
 : <a class="el" href="class_dungeon_architect_1_1_triangulator_1_1_geometry_1_1_point.html#af0ba219d069d21dca8a63ff42c665e80">DungeonArchitect.Triangulator.Geometry.Point&lt; T &gt;</a>
+</li>
+<li>Erode()
+: <a class="el" href="class_sharp_nav_1_1_compact_heightfield.html#aa5667e176318e539fdf9a9fdff871e7e">SharpNav.CompactHeightfield</a>
+</li>
+<li>External
+: <a class="el" href="class_sharp_nav_1_1_pathfinding_1_1_link.html#a5804cc4728fc02425f61f62759e14347">SharpNav.Pathfinding.Link</a>
 </li>
 </ul>
 </div><!-- contents -->

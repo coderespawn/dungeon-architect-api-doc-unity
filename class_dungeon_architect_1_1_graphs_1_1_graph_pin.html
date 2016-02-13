@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="tab_icon_main.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Dungeon Architect (Unity)
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
    <div id="projectbrief">Dungeon Architect is a plugin for Unity that helps in streamlining the level creation process. It allows you to quickly create levels procedurally (or manually) by blocking out volumes and having the plugin build the environment automatically around it</div>
   </td>
@@ -148,13 +148,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td><
 <tr class="memitem:a20d4f8b6f30759eb4eda0196713d1482"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html#a20d4f8b6f30759eb4eda0196713d1482">GetBounds</a> ()</td></tr>
 <tr class="memdesc:a20d4f8b6f30759eb4eda0196713d1482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the bounds of the pin, relative to the node position  <a href="#a20d4f8b6f30759eb4eda0196713d1482">More...</a><br /></td></tr>
 <tr class="separator:a20d4f8b6f30759eb4eda0196713d1482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d7d03d6789f77c3a6f3e91311df6b8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html#ac5d7d03d6789f77c3a6f3e91311df6b8">HandleInput</a> (Event e, <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_camera.html">GraphCamera</a> camera)</td></tr>
-<tr class="memdesc:ac5d7d03d6789f77c3a6f3e91311df6b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the mouse input and returns true if handled  <a href="#ac5d7d03d6789f77c3a6f3e91311df6b8">More...</a><br /></td></tr>
-<tr class="separator:ac5d7d03d6789f77c3a6f3e91311df6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2702b95c3e8442c18a7869757a4bd3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e2702b95c3e8442c18a7869757a4bd3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>NotifyPinLinksDestroyed</b> ()</td></tr>
+<tr class="separator:a2e2702b95c3e8442c18a7869757a4bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ac1c168c9beb6796fa2d33b389f55efc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_dungeon_architect_1_1_graphs.html#a2420822ce613f7659dfd58fd77e180bb">GraphPinMouseState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html#ac1c168c9beb6796fa2d33b389f55efc4">ClickState</a><code> [get]</code></td></tr>
+<tr class="memitem:ac1c168c9beb6796fa2d33b389f55efc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_dungeon_architect_1_1_graphs.html#a2420822ce613f7659dfd58fd77e180bb">GraphPinMouseState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html#ac1c168c9beb6796fa2d33b389f55efc4">ClickState</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ac1c168c9beb6796fa2d33b389f55efc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The state of the mouse input on this pin  <a href="#ac1c168c9beb6796fa2d33b389f55efc4">More...</a><br /></td></tr>
 <tr class="separator:ac1c168c9beb6796fa2d33b389f55efc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae665acc8cec4be314be594edc32a3433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_dungeon_architect_1_1_graphs.html#abd4485de4d41a73924e512cfd5ac788a">GraphPinType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html#ae665acc8cec4be314be594edc32a3433">PinType</a><code> [get, set]</code></td></tr>
@@ -178,6 +178,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a4afa8d831f8388814891a8c8e5649464"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html#a4afa8d831f8388814891a8c8e5649464">TangentStrength</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a4afa8d831f8388814891a8c8e5649464"><td class="mdescLeft">&#160;</td><td class="mdescRight">The spring strength of the link connected to this pin  <a href="#a4afa8d831f8388814891a8c8e5649464">More...</a><br /></td></tr>
 <tr class="separator:a4afa8d831f8388814891a8c8e5649464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cdeeb795493b987e1f3677676f8bb6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7cdeeb795493b987e1f3677676f8bb6d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>RequestLinkDeletionInitiated</b><code> [get, set]</code></td></tr>
+<tr class="separator:a7cdeeb795493b987e1f3677676f8bb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
 Events</h2></td></tr>
@@ -267,42 +270,6 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac5d7d03d6789f77c3a6f3e91311df6b8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool DungeonArchitect.Graphs.GraphPin.HandleInput </td>
-          <td>(</td>
-          <td class="paramtype">Event&#160;</td>
-          <td class="paramname"><em>e</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_camera.html">GraphCamera</a>&#160;</td>
-          <td class="paramname"><em>camera</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Handles the mouse input and returns true if handled </p>
-
-</div>
-</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a class="anchor" id="a59e6a6fc7749a1ae212971f6dcfaf3f3"></a>
 <div class="memitem">
@@ -339,7 +306,7 @@ Events</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -496,7 +463,7 @@ Events</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Graph/GraphPin.cs</li>
+<li>github/dungeon-architect-unity/Scripts/Graph/GraphPin.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

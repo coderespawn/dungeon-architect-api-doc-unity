@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="tab_icon_main.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Dungeon Architect (Unity)
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.1</span>
    </div>
    <div id="projectbrief">Dungeon Architect is a plugin for Unity that helps in streamlining the level creation process. It allows you to quickly create levels procedurally (or manually) by blocking out volumes and having the plugin build the environment automatically around it</div>
   </td>
@@ -139,30 +139,12 @@ delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>OnGraphState
 <tr class="memitem:af675e09a04f11e82ce7ca8f0ede94e44"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af675e09a04f11e82ce7ca8f0ede94e44"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
 <tr class="separator:af675e09a04f11e82ce7ca8f0ede94e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f9bcd2e584eb05beb4ef37e9b5d346"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#a45f9bcd2e584eb05beb4ef37e9b5d346">GetNode</a> (string id)</td></tr>
+<tr class="memdesc:a45f9bcd2e584eb05beb4ef37e9b5d346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the node by it's id  <a href="#a45f9bcd2e584eb05beb4ef37e9b5d346">More...</a><br /></td></tr>
+<tr class="separator:a45f9bcd2e584eb05beb4ef37e9b5d346"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cb9373b1469dae820d4158ab67b4972"><td class="memItemLeft" align="right" valign="top">T[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#a7cb9373b1469dae820d4158ab67b4972">GetNodes&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:a7cb9373b1469dae820d4158ab67b4972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all nodes of the specified type  <a href="#a7cb9373b1469dae820d4158ab67b4972">More...</a><br /></td></tr>
 <tr class="separator:a7cb9373b1469dae820d4158ab67b4972"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a301f92708ffb539dac5e8709c3f79142"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#a301f92708ffb539dac5e8709c3f79142">CreateNode&lt; T &gt;</a> ()</td></tr>
-<tr class="memdesc:a301f92708ffb539dac5e8709c3f79142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new graph node of the specified type  <a href="#a301f92708ffb539dac5e8709c3f79142">More...</a><br /></td></tr>
-<tr class="separator:a301f92708ffb539dac5e8709c3f79142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a628e31382dfe8d08247d304bf2b2f963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#a628e31382dfe8d08247d304bf2b2f963">CreateNode</a> (Type t)</td></tr>
-<tr class="memdesc:a628e31382dfe8d08247d304bf2b2f963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a graph node of the specified type  <a href="#a628e31382dfe8d08247d304bf2b2f963">More...</a><br /></td></tr>
-<tr class="separator:a628e31382dfe8d08247d304bf2b2f963"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2808cd4f1825967bc37553bcbd963bff"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#a2808cd4f1825967bc37553bcbd963bff">DuplicateNode&lt; T &gt;</a> (T originalNode)</td></tr>
-<tr class="memdesc:a2808cd4f1825967bc37553bcbd963bff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a deep copy of a node. Called when a node is copy pasted  <a href="#a2808cd4f1825967bc37553bcbd963bff">More...</a><br /></td></tr>
-<tr class="separator:a2808cd4f1825967bc37553bcbd963bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b4d621833537cc38085db536a62467d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#a2b4d621833537cc38085db536a62467d">DestroyNode</a> (<a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a> node)</td></tr>
-<tr class="memdesc:a2b4d621833537cc38085db536a62467d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a node and removes all references of it from the graph model. Called when the node is deleted from the editor  <a href="#a2b4d621833537cc38085db536a62467d">More...</a><br /></td></tr>
-<tr class="separator:a2b4d621833537cc38085db536a62467d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae709bc0f27baed55ff37b951757b275"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#aae709bc0f27baed55ff37b951757b275">GetNode</a> (int id)</td></tr>
-<tr class="memdesc:aae709bc0f27baed55ff37b951757b275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the node by it's id  <a href="#aae709bc0f27baed55ff37b951757b275">More...</a><br /></td></tr>
-<tr class="separator:aae709bc0f27baed55ff37b951757b275"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b5ff0abbd07e7a64de6a1053f502f60"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#a4b5ff0abbd07e7a64de6a1053f502f60">CreateLink&lt; T &gt;</a> ()</td></tr>
-<tr class="memdesc:a4b5ff0abbd07e7a64de6a1053f502f60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a link of the specified type  <a href="#a4b5ff0abbd07e7a64de6a1053f502f60">More...</a><br /></td></tr>
-<tr class="separator:a4b5ff0abbd07e7a64de6a1053f502f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b3134d42c41dceaf2e941f3fb750978"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#a6b3134d42c41dceaf2e941f3fb750978">CreateLink&lt; T &gt;</a> (<a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html">GraphPin</a> output, <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html">GraphPin</a> input)</td></tr>
-<tr class="memdesc:a6b3134d42c41dceaf2e941f3fb750978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a graph link between the two specified pins  <a href="#a6b3134d42c41dceaf2e941f3fb750978">More...</a><br /></td></tr>
-<tr class="separator:a6b3134d42c41dceaf2e941f3fb750978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae73f74f98dbfa82d89e4fdedc497e3b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#ae73f74f98dbfa82d89e4fdedc497e3b0">MarkAsDirty</a> ()</td></tr>
 <tr class="memdesc:ae73f74f98dbfa82d89e4fdedc497e3b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the model as dirty  <a href="#ae73f74f98dbfa82d89e4fdedc497e3b0">More...</a><br /></td></tr>
 <tr class="separator:ae73f74f98dbfa82d89e4fdedc497e3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +154,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td><
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:ace14b0946e9112c0ec384498c31a7e06"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace14b0946e9112c0ec384498c31a7e06"></a>
+<a class="el" href="class_dungeon_architect_1_1_graphs_1_1_index_counter.html">DungeonArchitect.Graphs.IndexCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IndexCounter</b><code> [get]</code></td></tr>
+<tr class="separator:ace14b0946e9112c0ec384498c31a7e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7e679a4faa945be91277e54a031b646"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#ab7e679a4faa945be91277e54a031b646">Nodes</a><code> [get]</code></td></tr>
 <tr class="memdesc:ab7e679a4faa945be91277e54a031b646"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of graph nodes  <a href="#ab7e679a4faa945be91277e54a031b646">More...</a><br /></td></tr>
 <tr class="separator:ab7e679a4faa945be91277e54a031b646"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,212 +179,14 @@ OnGraphStateChanged&#160;</td><td class="memItemRight" valign="bottom"><b>GraphS
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Theme <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html" title="Theme Graph data structure holds all the theme nodes and their connections ">Graph</a> data structure holds all the theme nodes and their connections </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a4b5ff0abbd07e7a64de6a1053f502f60"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">T DungeonArchitect.Graphs.Graph.CreateLink&lt; T &gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates a link of the specified type </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The type of the link. Should be <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_link.html" title="A graph link is a directional connection between two graph nodes ">GraphLink</a> or one of its subclass</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-<div class="typeconstraint">
-<dl><dt><b>Type Constraints</b></dt><dd>
-<table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>GraphLink</em></td><td>&#160;</td></tr>
-</table>
-</dl>
-</div>
-
-</div>
-</div>
-<a class="anchor" id="a6b3134d42c41dceaf2e941f3fb750978"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">T DungeonArchitect.Graphs.Graph.CreateLink&lt; T &gt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html">GraphPin</a>&#160;</td>
-          <td class="paramname"><em>output</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_pin.html">GraphPin</a>&#160;</td>
-          <td class="paramname"><em>input</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates a graph link between the two specified pins </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The type of the link. Should be <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_link.html" title="A graph link is a directional connection between two graph nodes ">GraphLink</a> or one of its subclass</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">output</td><td>The output pin from where the link originates</td></tr>
-    <tr><td class="paramname">input</td><td>The input pin, where the link points to</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-<div class="typeconstraint">
-<dl><dt><b>Type Constraints</b></dt><dd>
-<table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>GraphLink</em></td><td>&#160;</td></tr>
-</table>
-</dl>
-</div>
-
-</div>
-</div>
-<a class="anchor" id="a628e31382dfe8d08247d304bf2b2f963"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a> DungeonArchitect.Graphs.Graph.CreateNode </td>
-          <td>(</td>
-          <td class="paramtype">Type&#160;</td>
-          <td class="paramname"><em>t</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates a graph node of the specified type </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">t</td><td>The type of node to create. Should be a subclass of <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html" title="Represents a graph node in the theme graph. This is the base class for all graph nodes ...">GraphNode</a></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The created graph node</dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a301f92708ffb539dac5e8709c3f79142"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph.html#a628e31382dfe8d08247d304bf2b2f963">DungeonArchitect.Graphs.Graph.CreateNode</a>&lt; T &gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates a new graph node of the specified type </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The type of node to create. Should be a subclass of <a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html" title="Represents a graph node in the theme graph. This is the base class for all graph nodes ...">GraphNode</a></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The created graph node</dd></dl>
-<div class="typeconstraint">
-<dl><dt><b>Type Constraints</b></dt><dd>
-<table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>GraphNode</em></td><td>&#160;</td></tr>
-</table>
-</dl>
-</div>
-
-</div>
-</div>
-<a class="anchor" id="a2b4d621833537cc38085db536a62467d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DungeonArchitect.Graphs.Graph.DestroyNode </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a>&#160;</td>
-          <td class="paramname"><em>node</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destroys a node and removes all references of it from the graph model. Called when the node is deleted from the editor </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">node</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a2808cd4f1825967bc37553bcbd963bff"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">T DungeonArchitect.Graphs.Graph.DuplicateNode&lt; T &gt; </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>originalNode</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Makes a deep copy of a node. Called when a node is copy pasted </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">originalNode</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-<div class="typeconstraint">
-<dl><dt><b>Type Constraints</b></dt><dd>
-<table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>GraphNode</em></td><td>&#160;</td></tr>
-</table>
-</dl>
-</div>
-
-</div>
-</div>
-<a class="anchor" id="aae709bc0f27baed55ff37b951757b275"></a>
+<a class="anchor" id="a45f9bcd2e584eb05beb4ef37e9b5d346"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_dungeon_architect_1_1_graphs_1_1_graph_node.html">GraphNode</a> DungeonArchitect.Graphs.Graph.GetNode </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td></td>
         </tr>
@@ -550,7 +337,7 @@ OnGraphStateChanged&#160;</td><td class="memItemRight" valign="bottom"><b>GraphS
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Graph/Graph.cs</li>
+<li>github/dungeon-architect-unity/Scripts/Graph/Graph.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

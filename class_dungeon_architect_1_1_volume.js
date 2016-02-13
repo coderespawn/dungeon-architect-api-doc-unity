@@ -5,5 +5,6 @@ var class_dungeon_architect_1_1_volume =
     [ "COLOR_SOLID", "class_dungeon_architect_1_1_volume.html#a0daf92ca46bd18bcaed33de9b47274db", null ],
     [ "COLOR_SOLID_DESELECTED", "class_dungeon_architect_1_1_volume.html#aeff0a1b77751f9468495c879c11e822f", null ],
     [ "COLOR_WIRE", "class_dungeon_architect_1_1_volume.html#a2720fab7f5749b73ba9dcf4feb376d7d", null ],
-    [ "dungeon", "class_dungeon_architect_1_1_volume.html#a85ddf3ebab7a9a5027f5286ecbafa436", null ]
+    [ "dungeon", "class_dungeon_architect_1_1_volume.html#a85ddf3ebab7a9a5027f5286ecbafa436", null ],
+    [ "mode2D", "class_dungeon_architect_1_1_volume.html#ad3d4a8e1074a1b31af4a3ff3b51a919f", null ]
 ];

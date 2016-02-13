@@ -1,9 +1,0 @@
-digraph "F:/gamedev/unity/misc/da_test/Assets/DungeonArchitect/Scripts/Math" {
-  compound=true
-  node [ fontsize="10", fontname="Helvetica"];
-  edge [ labelfontsize="10", labelfontname="Helvetica"];
-  subgraph clusterdir_86ed760c24122780955541de199b606c {
-    graph [ bgcolor="#ddddee", pencolor="black", label="Scripts" fontname="Helvetica", fontsize="10", URL="dir_86ed760c24122780955541de199b606c.html"]
-  dir_9728393fc0585703464e66bf9023f950 [shape=box, label="Math", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9728393fc0585703464e66bf9023f950.html"];
-  }
-}

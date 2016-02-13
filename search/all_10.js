@@ -1,15 +1,6 @@
 var searchData=
 [
-  ['realtimeupdate',['RealtimeUpdate',['../class_dungeon_architect_1_1_editors_1_1_graph_editor.html#ad3f2f2747b335485446e18430d3afd83',1,'DungeonArchitect::Editors::GraphEditor']]],
-  ['reapplytheme',['ReapplyTheme',['../class_dungeon_architect_1_1_dungeon.html#a1a53fc95a4474ac470655585468ed160',1,'DungeonArchitect::Dungeon']]],
-  ['rectangle',['Rectangle',['../struct_dungeon_architect_1_1_rectangle.html',1,'DungeonArchitect']]],
-  ['removepaintcell',['RemovePaintCell',['../class_dungeon_architect_1_1_dungeon.html#aeabc0371f48c0e567d22029f87f98b53',1,'DungeonArchitect::Dungeon']]],
-  ['requestrebuild',['RequestRebuild',['../class_dungeon_architect_1_1_editors_1_1_dungeon_object_traker.html#ae3e10d8e53e812a2f5093b79ae5b071c',1,'DungeonArchitect.Editors.DungeonObjectTraker.RequestRebuild()'],['../class_dungeon_architect_1_1_dungeon.html#acdecd1f6a130feb66d93bff4c934d934',1,'DungeonArchitect.Dungeon.RequestRebuild()']]],
-  ['reset',['Reset',['../class_dungeon_architect_1_1_editors_1_1_asset_thumbnail_cache.html#aec8bafaa15f6ca0fac74eca32078a2f3',1,'DungeonArchitect::Editors::AssetThumbnailCache']]],
-  ['resetmodel',['ResetModel',['../class_dungeon_architect_1_1_grid_dungeon_model.html#af7ee423d16fc7b4596a1cd31d02080a7',1,'DungeonArchitect::GridDungeonModel']]],
-  ['roomareathreshold',['RoomAreaThreshold',['../class_dungeon_architect_1_1_grid_dungeon_config.html#a734432b37c513fa74c388a7271df80eb',1,'DungeonArchitect::GridDungeonConfig']]],
-  ['roomaspectdelta',['RoomAspectDelta',['../class_dungeon_architect_1_1_grid_dungeon_config.html#a99538834306a1d93e9ccdfa50895db15',1,'DungeonArchitect::GridDungeonConfig']]],
-  ['round',['Round',['../class_dungeon_architect_1_1_editors_1_1_inspector_utils.html#ae78606ae093ea21c2ee5434661a52aef',1,'DungeonArchitect::Editors::InspectorUtils']]],
-  ['roundtointvector',['RoundToIntVector',['../class_dungeon_architect_1_1_utils_1_1_math_utils.html#a28e9f4ec4cb0c128068cef342b32a5e2',1,'DungeonArchitect::Utils::MathUtils']]],
-  ['roundvector',['RoundVector',['../class_dungeon_architect_1_1_editors_1_1_inspector_utils.html#ab0a327e1aa8b07a276dbfcbf4c43ec09',1,'DungeonArchitect::Editors::InspectorUtils']]]
+  ['queryitems',['QueryItems',['../class_sharp_nav_1_1_collections_1_1_generic_1_1_proximity_grid.html#aa97151c0d9a339bb122c911f2d53ce3f',1,'SharpNav::Collections::Generic::ProximityGrid']]],
+  ['querypolygons',['QueryPolygons',['../class_sharp_nav_1_1_nav_mesh_query.html#a5aecb3a444c71ad9295bd69f1e0e24ad',1,'SharpNav::NavMeshQuery']]],
+  ['querypolygonsintile',['QueryPolygonsInTile',['../class_sharp_nav_1_1_tiled_nav_mesh.html#a975d7f1e7d9fe9e86e4cab792aaac7c6',1,'SharpNav::TiledNavMesh']]]
 ];

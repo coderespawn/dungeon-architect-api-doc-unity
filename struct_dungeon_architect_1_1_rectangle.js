@@ -9,6 +9,7 @@ var struct_dungeon_architect_1_1_rectangle =
     [ "Contains", "struct_dungeon_architect_1_1_rectangle.html#ae59ece769505faf1f9a618d1ff9e6e3e", null ],
     [ "GetBorderPoints", "struct_dungeon_architect_1_1_rectangle.html#a5c80bab52d961112bc7cc8be3f53027e", null ],
     [ "IntersectsWith", "struct_dungeon_architect_1_1_rectangle.html#af045ad9c3b6189462a340564c33fb2aa", null ],
+    [ "SetY", "struct_dungeon_architect_1_1_rectangle.html#a10b6cba96cc16258a387f6701ddbe644", null ],
     [ "location", "struct_dungeon_architect_1_1_rectangle.html#a8f8c5b3a1f2267439f9915ce7156f81a", null ],
     [ "size", "struct_dungeon_architect_1_1_rectangle.html#a84722527b31c551ea378a67dd4473850", null ],
     [ "Back", "struct_dungeon_architect_1_1_rectangle.html#a899d938a420dab432b38c4604b706f95", null ],

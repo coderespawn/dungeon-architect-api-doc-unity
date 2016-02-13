@@ -14,9 +14,9 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Properties", "functions_prop.html", null ],
+        [ "Properties", "functions_prop.html", "functions_prop" ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
     ] ]
@@ -26,8 +26,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_dungeon_architect_1_1_editors_1_1_placeable_node_editor.html#a4b720a8beeb008835853ddef96efbcf8",
-"class_dungeon_architect_1_1_marker_emitter_free_space_decorator.html#ae72b57a09ac7fc7aa5414abddfa004ae"
+"class_dungeon_architect_1_1_editors_1_1_negation_volume_editor.html",
+"class_dungeon_architect_1_1_marker_emitter_free_space_decorator.html",
+"class_sharp_nav_1_1_collections_1_1_generic_1_1_priority_queue.html",
+"class_sharp_nav_1_1_nav_mesh_builder.html#acc9184d6ace0d4145e8a626edd173dd6",
+"functions_func_m.html",
+"struct_sharp_nav_1_1_geometry_1_1_triangle3.html#a49f0f7d440be7f9cc8a1957dc583648c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

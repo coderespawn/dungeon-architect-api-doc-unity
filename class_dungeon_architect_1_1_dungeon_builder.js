@@ -10,6 +10,7 @@ var class_dungeon_architect_1_1_dungeon_builder =
     [ "EmitMarker", "class_dungeon_architect_1_1_dungeon_builder.html#ac77ab4a2bc4b0275932b8a7c59ff5eb9", null ],
     [ "EmitMarkers", "class_dungeon_architect_1_1_dungeon_builder.html#a24680954d0414cf61cd6aba6b021d434", null ],
     [ "GetBestMatchedTheme", "class_dungeon_architect_1_1_dungeon_builder.html#ae2fa15d2cb1f1766c549da16227fcfbf", null ],
+    [ "OnDestroyed", "class_dungeon_architect_1_1_dungeon_builder.html#aa146f864c9536308a44ec697e9164ebf", null ],
     [ "_SocketIdCounter", "class_dungeon_architect_1_1_dungeon_builder.html#a0a16d95fbb90033c04a1098c674df938", null ],
     [ "blackboard", "class_dungeon_architect_1_1_dungeon_builder.html#a6b2c1155deeaf9ad2df3decf8a0ead9e", null ],
     [ "config", "class_dungeon_architect_1_1_dungeon_builder.html#abdb244156942103491fd1e39cc16b9de", null ],
