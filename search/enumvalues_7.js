@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['inprogress',['InProgress',['../namespace_sharp_nav_1_1_crowds.html#a2f861430ed8e22d71700d2aae057caa2a12d868c18cb29bf58f02b504be9033fd',1,'SharpNav::Crowds']]],
-  ['internal',['Internal',['../namespace_sharp_nav_1_1_pathfinding.html#a8da2614ebc1c69975b0e2c9517c2fe6aaafbf0897a5a83fdd873dfb032ec695d3',1,'SharpNav::Pathfinding']]],
-  ['invalid',['Invalid',['../namespace_sharp_nav_1_1_crowds.html#a38d706baec359904c712bc6cd66a09f6a4bbb8f967da6d1a610596d7257179c2b',1,'SharpNav::Crowds']]]
+  ['minusx_3296',['MinusX',['../namespace_sharp_nav_1_1_pathfinding.html#a8da2614ebc1c69975b0e2c9517c2fe6aa6ee0807f5bf1b3e0a4d52919eb298454',1,'SharpNav::Pathfinding']]],
+  ['minusxminusz_3297',['MinusXMinusZ',['../namespace_sharp_nav_1_1_pathfinding.html#a8da2614ebc1c69975b0e2c9517c2fe6aa4b89e7df88c6c4a0220a1242c746b207',1,'SharpNav::Pathfinding']]],
+  ['minusxplusz_3298',['MinusXPlusZ',['../namespace_sharp_nav_1_1_pathfinding.html#a8da2614ebc1c69975b0e2c9517c2fe6aa946be82bfa5fe3e0589d0d4a2c9ff126',1,'SharpNav::Pathfinding']]],
+  ['minusz_3299',['MinusZ',['../namespace_sharp_nav_1_1_pathfinding.html#a8da2614ebc1c69975b0e2c9517c2fe6aa65661216a3acfdac8c58d97d97fa10cb',1,'SharpNav::Pathfinding']]]
 ];

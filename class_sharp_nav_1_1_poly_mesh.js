@@ -3,7 +3,6 @@ var class_sharp_nav_1_1_poly_mesh =
     [ "Polygon", "class_sharp_nav_1_1_poly_mesh_1_1_polygon.html", "class_sharp_nav_1_1_poly_mesh_1_1_polygon" ],
     [ "PolyMesh", "class_sharp_nav_1_1_poly_mesh.html#a0ea4f4e4d6dc00bb9fab1571dc544900", null ],
     [ "PolyMesh", "class_sharp_nav_1_1_poly_mesh.html#a6589ef1c3c154ae73708b0f3c629ebd3", null ],
-    [ "NullId", "class_sharp_nav_1_1_poly_mesh.html#a105c005198f03de43b2e6f6b0e9ff641", null ],
     [ "BorderSize", "class_sharp_nav_1_1_poly_mesh.html#af719bba64f28a4d0dddf2df1a0f81950", null ],
     [ "Bounds", "class_sharp_nav_1_1_poly_mesh.html#a63c489822acba1adf753f71557353255", null ],
     [ "CellHeight", "class_sharp_nav_1_1_poly_mesh.html#a82470bd570f86e630876d85ed710a16b", null ],

@@ -12,7 +12,6 @@ var class_sharp_nav_1_1_crowds_1_1_agent =
     [ "ResetMoveTarget", "class_sharp_nav_1_1_crowds_1_1_agent.html#a668aab4075cd55f06182d7e36c639edc", null ],
     [ "ToString", "class_sharp_nav_1_1_crowds_1_1_agent.html#a3030827824a097dd57793341c6f23843", null ],
     [ "UpdateAgentParameters", "class_sharp_nav_1_1_crowds_1_1_agent.html#a19d8f7bc4bc4c3c837a6a7576f4f4e5b", null ],
-    [ "AgentMaxNeighbors", "class_sharp_nav_1_1_crowds_1_1_agent.html#af048ab6246d4d29c4645d57a8143b3c6", null ],
     [ "CornerFlags", "class_sharp_nav_1_1_crowds_1_1_agent.html#ac50241cb16c0d97f84726e75592e72ae", null ],
     [ "CornerPolys", "class_sharp_nav_1_1_crowds_1_1_agent.html#ababdb3860b035499231bfd5294a4cf58", null ],
     [ "CornerVerts", "class_sharp_nav_1_1_crowds_1_1_agent.html#aec7070eb0bf63d6582c48361e58dc32c", null ],

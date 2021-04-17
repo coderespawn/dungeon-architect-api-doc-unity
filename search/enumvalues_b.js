@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['plusx',['PlusX',['../namespace_sharp_nav_1_1_pathfinding.html#a8da2614ebc1c69975b0e2c9517c2fe6aaac53fa7ccf60e6f59512da11975eb8a7',1,'SharpNav::Pathfinding']]],
-  ['plusxminusz',['PlusXMinusZ',['../namespace_sharp_nav_1_1_pathfinding.html#a8da2614ebc1c69975b0e2c9517c2fe6aa41998e54376eeaab4bbd6655a9cd41d3',1,'SharpNav::Pathfinding']]],
-  ['plusxplusz',['PlusXPlusZ',['../namespace_sharp_nav_1_1_pathfinding.html#a8da2614ebc1c69975b0e2c9517c2fe6aad35ca60d870612d8481bcec9d97bf1cc',1,'SharpNav::Pathfinding']]],
-  ['plusz',['PlusZ',['../namespace_sharp_nav_1_1_pathfinding.html#a8da2614ebc1c69975b0e2c9517c2fe6aa59bb9bd5dd05e7aa8aca793a81266bb9',1,'SharpNav::Pathfinding']]]
+  ['requesting_3312',['Requesting',['../namespace_sharp_nav_1_1_crowds.html#af22ed148a5a3d61fef09f42591ae4d48ae3e2d60d2749950e25f4aaf215a15868',1,'SharpNav::Crowds']]]
 ];

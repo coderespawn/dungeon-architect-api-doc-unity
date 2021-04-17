@@ -1,8 +1,8 @@
 var struct_sharp_nav_1_1_geometry_1_1_triangle3 =
 [
     [ "Triangle3", "struct_sharp_nav_1_1_geometry_1_1_triangle3.html#a72417c86cda49ab69f340eec6c42211c", null ],
-    [ "Equals", "struct_sharp_nav_1_1_geometry_1_1_triangle3.html#a6391537de6aa5255a73563d43fa88e24", null ],
     [ "Equals", "struct_sharp_nav_1_1_geometry_1_1_triangle3.html#ab62f87d9c0743715f4a6ec7c07215b21", null ],
+    [ "Equals", "struct_sharp_nav_1_1_geometry_1_1_triangle3.html#a6391537de6aa5255a73563d43fa88e24", null ],
     [ "GetHashCode", "struct_sharp_nav_1_1_geometry_1_1_triangle3.html#a57abb3f87af454aca66710d87d114f61", null ],
     [ "ToString", "struct_sharp_nav_1_1_geometry_1_1_triangle3.html#adde0d7999464f7b743c5f41830cc6217", null ],
     [ "A", "struct_sharp_nav_1_1_geometry_1_1_triangle3.html#a4c6b35ce7674a644db5c9599237da6ce", null ],

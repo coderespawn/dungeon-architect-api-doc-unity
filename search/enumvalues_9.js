@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['none',['None',['../namespace_sharp_nav.html#a5796a4188b50e6d1b028c1356b490ae9a6adf97f83acf6453d4a6a4b1070f3754',1,'SharpNav.None()'],['../namespace_sharp_nav_1_1_crowds.html#af22ed148a5a3d61fef09f42591ae4d48a6adf97f83acf6453d4a6a4b1070f3754',1,'SharpNav.Crowds.None()'],['../namespace_sharp_nav.html#ae46cc01428a786ccb2bff513cf7ea7f5a6adf97f83acf6453d4a6a4b1070f3754',1,'SharpNav.None()'],['../namespace_sharp_nav_1_1_pathfinding.html#a085cdf6348311f660f0f17aebf7098c1a6adf97f83acf6453d4a6a4b1070f3754',1,'SharpNav.Pathfinding.None()'],['../namespace_sharp_nav_1_1_pathfinding.html#a6fc7914748413af4bca74874a2cd6e58a6adf97f83acf6453d4a6a4b1070f3754',1,'SharpNav.Pathfinding.None()']]],
-  ['north',['North',['../namespace_sharp_nav.html#af1d6c1791c70e2cf8c40a95432a1b247a601560b94fbb188919dd1d36c8ab70a4',1,'SharpNav.North()'],['../namespace_sharp_nav.html#ae46cc01428a786ccb2bff513cf7ea7f5a601560b94fbb188919dd1d36c8ab70a4',1,'SharpNav.North()']]]
+  ['obstacleavoidance_3302',['ObstacleAvoidance',['../namespace_sharp_nav_1_1_crowds.html#ae87c2dd5455138eca31c3fae1de6057fa8d60d2e451cf50771e4568223b09456e',1,'SharpNav::Crowds']]],
+  ['offmesh_3303',['Offmesh',['../namespace_sharp_nav_1_1_crowds.html#a38d706baec359904c712bc6cd66a09f6ac218f7c553ee023aa840b4653794c287',1,'SharpNav::Crowds']]],
+  ['offmeshconnection_3304',['OffMeshConnection',['../namespace_sharp_nav_1_1_pathfinding.html#abc613ffe6d6d6a8089e366389a23e72aa5d0856d8fb07132aaa4b914d2e9adce2',1,'SharpNav::Pathfinding']]],
+  ['open_3305',['Open',['../namespace_sharp_nav.html#a7ff19792794c733b4aedcf14c48f47ccac3bf447eabe632720a3aa1a7ce401274',1,'SharpNav']]],
+  ['optimizetopo_3306',['OptimizeTopo',['../namespace_sharp_nav_1_1_crowds.html#ae87c2dd5455138eca31c3fae1de6057fa4889a96ec4855c4cfd70fe725ea3f6db',1,'SharpNav::Crowds']]],
+  ['optimizevis_3307',['OptimizeVis',['../namespace_sharp_nav_1_1_crowds.html#ae87c2dd5455138eca31c3fae1de6057fab767fe8617b154c03b3efed17df3b58e',1,'SharpNav::Crowds']]]
 ];

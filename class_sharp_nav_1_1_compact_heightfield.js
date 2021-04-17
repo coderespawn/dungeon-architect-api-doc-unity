@@ -2,8 +2,8 @@ var class_sharp_nav_1_1_compact_heightfield =
 [
     [ "CompactHeightfield", "class_sharp_nav_1_1_compact_heightfield.html#a0f1932efc3c5c66b059b976bb00acd80", null ],
     [ "CompactHeightfield", "class_sharp_nav_1_1_compact_heightfield.html#ae9c0cd3c368f381c21750e0c2ce6a7cd", null ],
-    [ "BuildContourSet", "class_sharp_nav_1_1_compact_heightfield.html#a61a16c7c3f941078a9fee94ed4735f10", null ],
     [ "BuildContourSet", "class_sharp_nav_1_1_compact_heightfield.html#abf787dcf065a4eb7dd30157ea12bd425", null ],
+    [ "BuildContourSet", "class_sharp_nav_1_1_compact_heightfield.html#a61a16c7c3f941078a9fee94ed4735f10", null ],
     [ "BuildDistanceField", "class_sharp_nav_1_1_compact_heightfield.html#a057ca237d6a090b4f18fe79ead562aa5", null ],
     [ "BuildRegions", "class_sharp_nav_1_1_compact_heightfield.html#a13d3130baf53a0a36bca836229abe1eb", null ],
     [ "Erode", "class_sharp_nav_1_1_compact_heightfield.html#aa5667e176318e539fdf9a9fdff871e7e", null ],

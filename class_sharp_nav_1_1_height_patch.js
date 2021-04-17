@@ -7,7 +7,6 @@ var class_sharp_nav_1_1_height_patch =
     [ "SetAll", "class_sharp_nav_1_1_height_patch.html#a5ea8ba640b3d4c938f91c733fccb78b9", null ],
     [ "TryGetHeight", "class_sharp_nav_1_1_height_patch.html#ad18226b2212df43f2ef72fef753249e0", null ],
     [ "TryGetHeight", "class_sharp_nav_1_1_height_patch.html#ab0288758447292b75d33ab6772c0d651", null ],
-    [ "UnsetHeight", "class_sharp_nav_1_1_height_patch.html#a960fd478247787d16e965b086006efb1", null ],
     [ "Length", "class_sharp_nav_1_1_height_patch.html#a6543af1c4314678bd303d9ddc3eb094a", null ],
     [ "this[int index]", "class_sharp_nav_1_1_height_patch.html#a42a630c457d8eb79e8d98c1f65aa81a5", null ],
     [ "this[int x, int y]", "class_sharp_nav_1_1_height_patch.html#a8e1701575d76a46d749694ffa75a294d", null ],

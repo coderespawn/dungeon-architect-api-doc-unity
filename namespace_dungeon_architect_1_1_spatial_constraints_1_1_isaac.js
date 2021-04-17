@@ -1,0 +1,4 @@
+var namespace_dungeon_architect_1_1_spatial_constraints_1_1_isaac =
+[
+    [ "SpatialConstraintProcessorIsaac", "class_dungeon_architect_1_1_spatial_constraints_1_1_isaac_1_1_spatial_constraint_processor_isaac.html", "class_dungeon_architect_1_1_spatial_constraints_1_1_isaac_1_1_spatial_constraint_processor_isaac" ]
+];

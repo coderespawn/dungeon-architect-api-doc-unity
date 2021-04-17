@@ -1,0 +1,4 @@
+var namespace_dungeon_architect_1_1_builders_1_1_snap_1_1_side_scroller =
+[
+    [ "SnapSideScrollerBuilder", "class_dungeon_architect_1_1_builders_1_1_snap_1_1_side_scroller_1_1_snap_side_scroller_builder.html", "class_dungeon_architect_1_1_builders_1_1_snap_1_1_side_scroller_1_1_snap_side_scroller_builder" ]
+];

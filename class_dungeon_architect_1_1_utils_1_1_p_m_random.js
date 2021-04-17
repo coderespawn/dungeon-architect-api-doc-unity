@@ -6,5 +6,6 @@ var class_dungeon_architect_1_1_utils_1_1_p_m_random =
     [ "Initialize", "class_dungeon_architect_1_1_utils_1_1_p_m_random.html#ac6fa21ff46d3cbf550d026a93d9faebd", null ],
     [ "NextGaussianFloat", "class_dungeon_architect_1_1_utils_1_1_p_m_random.html#ad6dfb85e8cca89bb56b627e4036a6ffd", null ],
     [ "NextGaussianFloat", "class_dungeon_architect_1_1_utils_1_1_p_m_random.html#ae12359c50b290826c1709a733f2b8d81", null ],
+    [ "RandomPointOnCircle", "class_dungeon_architect_1_1_utils_1_1_p_m_random.html#a8a2e150fb7ef3b99bb8515cf4693d40d", null ],
     [ "UniformRandom", "class_dungeon_architect_1_1_utils_1_1_p_m_random.html#a7be6cd18ddd124a3344e9c9fcba0de7b", null ]
 ];

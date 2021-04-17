@@ -1,0 +1,5 @@
+var class_dungeon_architect_1_1_flow_1_1_impl_1_1_snap_grid_flow_1_1_sgf_module_database_placeable_marker_info =
+[
+    [ "count", "class_dungeon_architect_1_1_flow_1_1_impl_1_1_snap_grid_flow_1_1_sgf_module_database_placeable_marker_info.html#a392a40113503a8571cd39244e249ac97", null ],
+    [ "placeableMarkerTemplate", "class_dungeon_architect_1_1_flow_1_1_impl_1_1_snap_grid_flow_1_1_sgf_module_database_placeable_marker_info.html#af54e4034902c44ecec6d6a6e69b3ab60", null ]
+];

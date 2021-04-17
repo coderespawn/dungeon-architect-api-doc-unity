@@ -9,7 +9,7 @@ var class_sharp_nav_1_1_collections_1_1_generic_1_1_buffered_queue =
     [ "Enqueue", "class_sharp_nav_1_1_collections_1_1_generic_1_1_buffered_queue.html#a51f3e7909db422caa7f7d24c38b1bfa0", null ],
     [ "GetEnumerator", "class_sharp_nav_1_1_collections_1_1_generic_1_1_buffered_queue.html#acbe7223cc01832485940cca114ac5f9f", null ],
     [ "Peek", "class_sharp_nav_1_1_collections_1_1_generic_1_1_buffered_queue.html#a18c7e7c71721bd69bb2b9c195900b698", null ],
-    [ "Count", "class_sharp_nav_1_1_collections_1_1_generic_1_1_buffered_queue.html#a27c81c0e4eda9049670958bcd6736c24", null ],
+    [ "Count", "class_sharp_nav_1_1_collections_1_1_generic_1_1_buffered_queue.html#adf5fe3ea6542bb4d50750e246ded09f4", null ],
     [ "IsReadOnly", "class_sharp_nav_1_1_collections_1_1_generic_1_1_buffered_queue.html#a881adb24b3650748072e2035c47a6a08", null ],
     [ "this[int index]", "class_sharp_nav_1_1_collections_1_1_generic_1_1_buffered_queue.html#a2ba180d1d9a3fad32ad943d066b63fe8", null ]
 ];

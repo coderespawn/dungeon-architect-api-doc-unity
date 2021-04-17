@@ -15,5 +15,6 @@ var class_dungeon_architect_1_1_navigation_1_1_dungeon_nav_mesh =
     [ "NavMesh", "class_dungeon_architect_1_1_navigation_1_1_dungeon_nav_mesh.html#a228ebb3ae88e38c42dd335a58049d3aa", null ],
     [ "NavMeshQuery", "class_dungeon_architect_1_1_navigation_1_1_dungeon_nav_mesh.html#a793b40ed46f5b4cf64dd730f21561bb4", null ],
     [ "PolyMesh", "class_dungeon_architect_1_1_navigation_1_1_dungeon_nav_mesh.html#aaf3b35db14ec80db26c3ca24f248597b", null ],
-    [ "PolyMeshDetail", "class_dungeon_architect_1_1_navigation_1_1_dungeon_nav_mesh.html#a17acefc623e4d5d0597d4be77dbe7399", null ]
+    [ "PolyMeshDetail", "class_dungeon_architect_1_1_navigation_1_1_dungeon_nav_mesh.html#a17acefc623e4d5d0597d4be77dbe7399", null ],
+    [ "OnNavmeshBuilt", "class_dungeon_architect_1_1_navigation_1_1_dungeon_nav_mesh.html#aabc3f3d4ba91f0cae0f6d18c7c6a9309", null ]
 ];

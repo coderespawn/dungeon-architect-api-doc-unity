@@ -1,8 +1,8 @@
 var class_sharp_nav_1_1_pathfinding_1_1_mesh_tile =
 [
     [ "ClosestHeight", "class_sharp_nav_1_1_pathfinding_1_1_mesh_tile.html#a8dd0465c4c6e01eda429d5410b2d99e4", null ],
-    [ "ClosestPointOnPoly", "class_sharp_nav_1_1_pathfinding_1_1_mesh_tile.html#ae7c5b9607a5376d980e923ec44c6da9a", null ],
     [ "ClosestPointOnPoly", "class_sharp_nav_1_1_pathfinding_1_1_mesh_tile.html#a48250191431f1ceade825269e0bd5edc", null ],
+    [ "ClosestPointOnPoly", "class_sharp_nav_1_1_pathfinding_1_1_mesh_tile.html#ae7c5b9607a5376d980e923ec44c6da9a", null ],
     [ "ClosestPointOnPolyBoundary", "class_sharp_nav_1_1_pathfinding_1_1_mesh_tile.html#a3b0789ca7d7bd01350c745412400b5bc", null ],
     [ "ClosestPointOnPolyOffMeshConnection", "class_sharp_nav_1_1_pathfinding_1_1_mesh_tile.html#ad77c80219b38e58850fd4e600ce0a119", null ],
     [ "BVTree", "class_sharp_nav_1_1_pathfinding_1_1_mesh_tile.html#a488c00e5dcf6f24149b7a6b94f45dcb5", null ],

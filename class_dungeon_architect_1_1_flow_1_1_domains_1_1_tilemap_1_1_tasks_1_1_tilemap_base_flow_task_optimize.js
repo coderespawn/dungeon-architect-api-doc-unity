@@ -1,0 +1,5 @@
+var class_dungeon_architect_1_1_flow_1_1_domains_1_1_tilemap_1_1_tasks_1_1_tilemap_base_flow_task_optimize =
+[
+    [ "Execute", "class_dungeon_architect_1_1_flow_1_1_domains_1_1_tilemap_1_1_tasks_1_1_tilemap_base_flow_task_optimize.html#a94b7e32d1f2f558b5588f2f41d033615", null ],
+    [ "discardDistanceFromLayout", "class_dungeon_architect_1_1_flow_1_1_domains_1_1_tilemap_1_1_tasks_1_1_tilemap_base_flow_task_optimize.html#a3a450737a2287daf9c1e7a839e1c584f", null ]
+];
